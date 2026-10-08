@@ -1,4 +1,4 @@
-# 0002 — Contexto na raiz e Tailwind CSS
+# 0002 — Contexto do agente em docs/ e Tailwind CSS
 
 **Data:** 2026-10-08
 
@@ -11,9 +11,9 @@ em `:root`.
 
 ## Decisão
 
-- `docs/MISSION.md` → `MISSION.md` e `docs/SPECIFICATIONS.md` → `SPECIFICATION.md`, na raiz, ao lado
-  do `AGENTS.md`. Os demais documentos (personas, contrato, formato, decisões, progresso) seguem em
-  `docs/`.
+- Na raiz, só o `AGENTS.md` (processo). Todo o resto do contexto do agente fica em `docs/`:
+  `MISSION.md`, `SPECIFICATION.md` (antes `SPECIFICATIONS.md`), personas, contrato, formato,
+  decisões e progresso.
 - Estilo com **Tailwind CSS 4** pelo plugin `@tailwindcss/vite`, versão fixa. Tokens de cor e fonte
   em `@theme` no `src/styles/global.css`; o tema escuro troca os tokens por
   `prefers-color-scheme`.
@@ -26,5 +26,5 @@ em `:root`.
 - O preflight zera estilos padrão (listas, títulos, margens): todo elemento precisa de classe, e o
   conteúdo Markdown renderizado (F1) vai precisar de estilos próprios para `ul`, `ol`, `table` etc.,
   com `@layer` ou `<style>` do componente.
-- Links e referências a `docs/MISSION.md` e `docs/SPECIFICATIONS.md` foram atualizados; os
-  registros de progresso antigos ficam como estavam.
+- Links e referências a `docs/SPECIFICATIONS.md` foram atualizados; os registros de progresso
+  antigos ficam como estavam.
