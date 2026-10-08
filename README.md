@@ -9,9 +9,9 @@ exemplo).
 
 ## Como funciona
 
-O site é estático (Astro, publicado no GitHub Pages). As questões vêm de um snapshot do banco do
+O site é estático (Astro, TypeScript e Tailwind CSS, publicado no GitHub Pages). As questões vêm de um snapshot do banco do
 projeto emmoni, extraído dos PDFs oficiais das bancas, com gabarito definitivo e a fonte de cada
-questão. Ver [`docs/SPECIFICATIONS.md`](docs/SPECIFICATIONS.md) e a
+questão. Ver [`docs/SPECIFICATION.md`](docs/SPECIFICATION.md) e a
 [decisão 0001](docs/decisions/0001-site-estatico-com-snapshot.md).
 
 ## Desenvolvimento
@@ -22,4 +22,6 @@ npm run dev      # http://localhost:4321/plantao/
 npm run gates    # check + testes + build
 ```
 
-O trabalho é feito por um agente de front-end: veja [`AGENTS.md`](AGENTS.md).
+O trabalho é feito por um agente de front-end. O contexto dele é o
+[`AGENTS.md`](AGENTS.md) (como), [`docs/MISSION.md`](docs/MISSION.md) (porquê) e
+[`docs/SPECIFICATION.md`](docs/SPECIFICATION.md) (o quê).

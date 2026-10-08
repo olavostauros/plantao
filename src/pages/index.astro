@@ -1,6 +1,7 @@
 ---
 // Página provisória: prova que o pipeline snapshot → build → GitHub Pages funciona.
-// O agente de front-end substitui esta página pelo produto (docs/SPECIFICATIONS.md §6).
+// O agente de front-end substitui esta página pelo produto (docs/SPECIFICATION.md §6).
+import '../styles/global.css';
 import { countBy, exams, meta, questions } from '../lib/snapshot';
 
 const byBoard = countBy(questions, (q) => q.exam_board_short_name);
@@ -17,17 +18,17 @@ const byBoard = countBy(questions, (q) => q.exam_board_short_name);
       content="Questões de provas oficiais de concursos policiais, por banca, órgão, cargo, ano e assunto."
     />
   </head>
-  <body>
-    <main>
-      <h1>Plantão</h1>
+  <body class="m-0 bg-bg font-sans text-lg/relaxed text-fg">
+    <main class="mx-auto max-w-2xl px-4 py-8">
+      <h1 class="text-3xl font-bold">Plantão</h1>
       <p>Questões de provas oficiais de concursos policiais. Em construção.</p>
       {meta.scope === 'seed' && (
-        <p class="aviso">Por enquanto, só questões de exemplo (fictícias).</p>
+        <p class="text-muted">Por enquanto, só questões de exemplo (fictícias).</p>
       )}
       <p>
         <strong>{questions.length}</strong> questões de <strong>{exams.length}</strong> provas.
       </p>
-      <ul>
+      <ul class="list-disc pl-6">
         {byBoard.map((b) => (
           <li>{b.value}: {b.count}</li>
         ))}
@@ -36,31 +37,3 @@ const byBoard = countBy(questions, (q) => q.exam_board_short_name);
   </body>
 </html>
 
-<style>
-  :root {
-    --bg: #fbfaf7;
-    --fg: #1d1d1b;
-    --muted: #5c5a55;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #161614;
-      --fg: #eceae4;
-      --muted: #a8a59d;
-    }
-  }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font: 1.125rem/1.6 system-ui, sans-serif;
-  }
-  main {
-    max-width: 40rem;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-  }
-  .aviso {
-    color: var(--muted);
-  }
-</style>

@@ -1,4 +1,4 @@
-# SPECIFICATIONS — Plantão
+# SPECIFICATION — Plantão
 
 Fonte de verdade técnica do site. Mudou alguma coisa aqui? Registre a decisão em
 `docs/decisions/` no mesmo commit.
@@ -6,26 +6,29 @@ Fonte de verdade técnica do site. Mudou alguma coisa aqui? Registre a decisão 
 ## 1. Estrutura
 
 ```
-astro.config.mjs        site e base do GitHub Pages
+AGENTS.md               como o agente trabalha (processo); o resto do contexto fica em docs/
+astro.config.mjs        site e base do GitHub Pages; Tailwind via plugin do Vite
 src/pages/              rotas (uma página .astro por rota)
 src/lib/                lógica sem interface: snapshot, filtros, busca, renderização do conteúdo
 src/components/         componentes .astro (ilhas de JS só quando necessário)
+src/styles/global.css   Tailwind: `@import "tailwindcss"` e tokens de tema (`@theme`)
 data/snapshot/          snapshot do esquema api do emmoni (gerado; versionado no git)
 public/assets/          imagens das questões (geradas pelo snapshot)
 scripts/                export-snapshot.mjs
 tests/                  Vitest
-docs/                   missão, personas, contrato (cópia), formato do conteúdo, decisões, progresso
+docs/                   contexto do agente: MISSION.md (porquê), SPECIFICATION.md (o quê, este
+                        arquivo), personas, contrato (cópia), formato do conteúdo, decisões, progresso
 ```
 
 ## 2. Stack
 
 | Camada | Escolha |
 |---|---|
-| Framework | **Astro 5**, saída `static`, TypeScript estrito |
+| Framework | **Astro 5**, saída `static`, **TypeScript** estrito |
 | Hospedagem | **GitHub Pages**, `https://olavostauros.github.io/plantao/` (`base: '/plantao'`) |
-| CI/CD | `.github/workflows/pages.yml`: `npm ci` → `npm run gates` → deploy no push ao `main` |
+| CI/CD | `.github/workflows/pages.yml`: `npm ci` → `npm run gates` → deploy no push ao `main`; PR com a label `automerge` entra no `main` sozinho quando os gates passam (decisão 0003) |
 | Testes | Vitest (lógica em `src/lib/`); testes de página quando houver interação |
-| Estilo | CSS do próprio Astro (escopo por componente) com variáveis em `:root`; claro e escuro |
+| Estilo | **Tailwind CSS 4** (`@tailwindcss/vite`), classes utilitárias no markup; cores e fontes como tokens em `@theme` (`src/styles/global.css`); claro e escuro por `prefers-color-scheme`. `<style>` de componente só para o que o Tailwind não cobre (ex.: conteúdo Markdown renderizado) |
 | Node | ≥ 22 (CI usa 24) |
 
 Dependência nova só com motivo escrito no commit; preferir nenhuma a uma grande. Biblioteca que
@@ -64,6 +67,7 @@ Mudou o contrato do emmoni? Atualize a cópia em `docs/contract.md`, a constante
 |---|---|
 | Página de questão sem JS | legível e completa (enunciado, texto-base, alternativas, fonte) |
 | JS na página de questão | ≤ 30 KB gzip |
+| CSS por página | ≤ 20 KB gzip (o Tailwind só gera as classes usadas) |
 | JS na busca (sem o índice) | ≤ 60 KB gzip; índice carregado em fatias |
 | LCP em 3G lento (Moto G) | ≤ 3 s |
 | Acessibilidade | WCAG 2.2 AA; Lighthouse Acessibilidade = 100 |

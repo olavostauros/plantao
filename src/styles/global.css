@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Tokens do tema. Use as classes geradas (bg-bg, text-fg, text-muted...), nunca cores soltas. */
+@theme {
+  --color-bg: #fbfaf7;
+  --color-fg: #1d1d1b;
+  --color-muted: #5c5a55;
+  --font-sans: system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #161614;
+    --color-fg: #eceae4;
+    --color-muted: #a8a59d;
+  }
+}

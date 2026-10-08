@@ -19,7 +19,7 @@ gosta de pegadinha em certo/errado"), têm pouco tempo e muita ansiedade, e quer
 
 ## Consequências para o produto
 
-- **Orçamento de peso** pensado para a Jéssica e o Kauã (SPECIFICATIONS.md §4).
+- **Orçamento de peso** pensado para a Jéssica e o Kauã (SPECIFICATION.md §4).
 - **Ler sem JavaScript; JavaScript melhora.** A questão é HTML estático; responder, filtrar e
   guardar progresso são camadas por cima.
 - **Acessibilidade é requisito**, não acabamento: o Marcos usa o site do jeito que ele é.
