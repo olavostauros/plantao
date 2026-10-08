@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import preact from '@astrojs/preact';
 import tailwindcss from '@tailwindcss/vite';
 
 // GitHub Pages serve o site em https://olavostauros.github.io/plantao/.
@@ -9,6 +10,8 @@ export default defineConfig({
   base: '/plantao',
   output: 'static',
   trailingSlash: 'always',
+  // Componentes do design system em JSX (API do React) sobre o Preact: ~4 KB gzip quando hidratados.
+  integrations: [preact({ compat: true })],
   vite: {
     plugins: [tailwindcss()],
   },
