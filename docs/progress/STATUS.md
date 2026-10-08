@@ -3,7 +3,8 @@
 **Marco atual:** F1 — A questão (SPECIFICATION.md §6). F0 pronto no setup do repositório.
 
 ## Em andamento
-- Branch `contexto-tailwind`: contexto do agente em `docs/` e Tailwind CSS (decisão 0002), aguardando PR.
+- Branch `design-system-preact`: design system em TSX sobre o Preact (decisão 0004), primeiro
+  componente `Button`; PR com `automerge`.
 
 ## Próximos passos (F1)
 1. Escolher o renderizador do Markdown restrito (`content-format.md`): HTML desabilitado salvo
@@ -14,7 +15,8 @@
    alternativas, fonte oficial (PDF e página), status do gabarito.
 4. Responder: A–E e Certo/Errado, sem recarregar a página; gabarito preliminar só quando
    `changed`/`annulled` (contrato §4).
-5. Layout base com Tailwind (cabeçalho, rodapé, tema claro/escuro pelos tokens de
+5. Layout base com Tailwind e componentes do design system em `src/components/ui/` (TSX/Preact,
+   HTML no build; `client:*` só na ilha de responder). Layout base (cabeçalho, rodapé, tema claro/escuro pelos tokens de
    `src/styles/global.css`, tipografia legível) seguindo as personas. O preflight zera listas e
    tabelas: o conteúdo Markdown precisa de estilos próprios.
 

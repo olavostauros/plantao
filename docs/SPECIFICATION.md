@@ -10,7 +10,8 @@ AGENTS.md               como o agente trabalha (processo); o resto do contexto f
 astro.config.mjs        site e base do GitHub Pages; Tailwind via plugin do Vite
 src/pages/              rotas (uma página .astro por rota)
 src/lib/                lógica sem interface: snapshot, filtros, busca, renderização do conteúdo
-src/components/         componentes .astro (ilhas de JS só quando necessário)
+src/components/         componentes .astro; design system em src/components/ui/ (TSX/Preact,
+                        HTML no build, ilhas de JS só quando necessário)
 src/styles/global.css   Tailwind: `@import "tailwindcss"` e tokens de tema (`@theme`)
 data/snapshot/          snapshot do esquema api do emmoni (gerado; versionado no git)
 public/assets/          imagens das questões (geradas pelo snapshot)
@@ -25,6 +26,7 @@ docs/                   contexto do agente: MISSION.md (porquê), SPECIFICATION.
 | Camada | Escolha |
 |---|---|
 | Framework | **Astro 5**, saída `static`, **TypeScript** estrito |
+| Componentes | Design system em **TSX com a API do React sobre o Preact** (`@astrojs/preact`, `compat: true`); HTML no build, hidratação (`client:*`) só onde há interação (decisão 0004) |
 | Hospedagem | **GitHub Pages**, `https://olavostauros.github.io/plantao/` (`base: '/plantao'`) |
 | CI/CD | `.github/workflows/pages.yml`: `npm ci` → `npm run gates` → deploy no push ao `main`; PR com a label `automerge` entra no `main` sozinho quando os gates passam (decisão 0003) |
 | Testes | Vitest (lógica em `src/lib/`); testes de página quando houver interação |
