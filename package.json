@@ -1,0 +1,29 @@
+{
+  "name": "plantao",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Plantão — questões de provas de concursos policiais, por banca, órgão, cargo, ano e assunto.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run",
+    "gates": "npm run check && npm test && npm run build",
+    "snapshot": "node scripts/export-snapshot.mjs"
+  },
+  "dependencies": {
+    "astro": "5.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/pg": "8.23.1",
+    "pg": "8.23.1",
+    "typescript": "5.9.3",
+    "vitest": "5.0.3"
+  }
+}

@@ -1,0 +1,3634 @@
+[
+ {
+  "id": "b9a87fee-3ad8-52f7-bfb2-397fedc1b2f4",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "D",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 1,
+  "topics": [
+   {
+    "name": "Concordância verbal",
+    "path": "lingua_portuguesa.concordancia.verbal"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "Fazem dois anos que o inquérito foi instaurado."
+   },
+   {
+    "letter": "B",
+    "body_md": "Existe, nos autos, provas suficientes para a denúncia."
+   },
+   {
+    "letter": "C",
+    "body_md": "Houveram diversas diligências no bairro."
+   },
+   {
+    "letter": "D",
+    "body_md": "Faltam três testemunhas para concluir a oitiva."
+   },
+   {
+    "letter": "E",
+    "body_md": "Chegou, ao fim da tarde, os peritos do instituto."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 1,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "D",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "b6ef081f-d54b-561e-a582-da1a793ac75b",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 2,
+  "topics": [
+   {
+    "name": "Crase",
+    "path": "lingua_portuguesa.crase"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "O delegado referiu-se à todos os envolvidos."
+   },
+   {
+    "letter": "B",
+    "body_md": "A equipe chegou à delegacia antes do amanhecer."
+   },
+   {
+    "letter": "C",
+    "body_md": "Os documentos foram entregues à ele."
+   },
+   {
+    "letter": "D",
+    "body_md": "O suspeito começou à confessar."
+   },
+   {
+    "letter": "E",
+    "body_md": "Ficou frente à frente com o depoente."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 1,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "Assinale a alternativa em que o sinal indicativo de crase está empregado corretamente.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "31317796-fc00-5272-8a38-4b9cb3c6aafc",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 3,
+  "topics": [
+   {
+    "name": "Pontuação",
+    "path": "lingua_portuguesa.pontuacao"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "Os policiais, chegaram ao local rapidamente."
+   },
+   {
+    "letter": "B",
+    "body_md": "O investigador que trabalha no plantão, redigiu o relatório."
+   },
+   {
+    "letter": "C",
+    "body_md": "Ontem à noite, a equipe cumpriu o mandado de busca."
+   },
+   {
+    "letter": "D",
+    "body_md": "A testemunha disse, que não viu nada."
+   },
+   {
+    "letter": "E",
+    "body_md": "O laudo pericial, foi anexado ao inquérito."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 1,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "Assinale a alternativa pontuada de acordo com a norma-padrão.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "85cbd34d-be3d-55ac-90a5-b8e11695afda",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 4,
+  "topics": [
+   {
+    "name": "Órgãos policiais",
+    "path": "direito_constitucional.seguranca_publica.orgaos_policiais"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "o policiamento ostensivo e a preservação da ordem pública."
+   },
+   {
+    "letter": "B",
+    "body_md": "as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+   },
+   {
+    "letter": "C",
+    "body_md": "a execução de atividades de defesa civil."
+   },
+   {
+    "letter": "D",
+    "body_md": "o patrulhamento ostensivo das ferrovias federais."
+   },
+   {
+    "letter": "E",
+    "body_md": "a segurança dos estabelecimentos penais."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 1,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "De acordo com a Constituição Federal, às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União,",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "0142575a-0fd5-500c-b7a1-6bba87d16dc7",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 5,
+  "topics": [
+   {
+    "name": "Remédios constitucionais",
+    "path": "direito_constitucional.direitos_e_garantias_fundamentais.remedios_constitucionais"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "mandado de injunção."
+   },
+   {
+    "letter": "B",
+    "body_md": "mandado de segurança."
+   },
+   {
+    "letter": "C",
+    "body_md": "ação popular."
+   },
+   {
+    "letter": "D",
+    "body_md": "*habeas corpus*."
+   },
+   {
+    "letter": "E",
+    "body_md": "ação civil pública."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 2,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "O remédio constitucional cabível para proteger direito líquido e certo, não amparado por *habeas corpus* ou *habeas data*, quando o responsável pela ilegalidade for autoridade pública, é o",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "2371fddb-e84d-59bd-81c6-e47b7b1d787f",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 6,
+  "topics": [
+   {
+    "name": "Lei penal no tempo",
+    "path": "direito_penal.aplicacao_da_lei_penal.lei_penal_no_tempo"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "aplica-se somente aos fatos ainda não julgados."
+   },
+   {
+    "letter": "B",
+    "body_md": "não se aplica aos fatos anteriores, em respeito à coisa julgada."
+   },
+   {
+    "letter": "C",
+    "body_md": "aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado."
+   },
+   {
+    "letter": "D",
+    "body_md": "aplica-se apenas se o condenado ainda não tiver iniciado o cumprimento da pena."
+   },
+   {
+    "letter": "E",
+    "body_md": "depende de autorização do juiz da execução para ser aplicada."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 2,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "A lei posterior que, de qualquer modo, favorecer o agente",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "ea9203e6-932a-5740-a6c4-baa7f7fe430f",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 7,
+  "topics": [
+   {
+    "name": "Roubo",
+    "path": "direito_penal.crimes_contra_o_patrimonio.roubo"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "furto."
+   },
+   {
+    "letter": "B",
+    "body_md": "roubo."
+   },
+   {
+    "letter": "C",
+    "body_md": "extorsão."
+   },
+   {
+    "letter": "D",
+    "body_md": "apropriação indébita."
+   },
+   {
+    "letter": "E",
+    "body_md": "estelionato."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 2,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "Subtrair, para si, coisa alheia móvel, mediante grave ameaça à pessoa, configura o crime de",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "5a7e83c3-ffdc-5ee9-9940-aa352fbb0681",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 8,
+  "topics": [
+   {
+    "name": "Prisão em flagrante",
+    "path": "direito_processual_penal.prisao.prisao_em_flagrante"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "é apontado como autor do crime em denúncia anônima recebida uma semana após o fato."
+   },
+   {
+    "letter": "B",
+    "body_md": "está cometendo a infração penal."
+   },
+   {
+    "letter": "C",
+    "body_md": "confessa espontaneamente o crime dias depois."
+   },
+   {
+    "letter": "D",
+    "body_md": "é reconhecido por fotografia um mês após o fato."
+   },
+   {
+    "letter": "E",
+    "body_md": "possui antecedentes criminais pelo mesmo tipo de delito."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 2,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "Nos termos do Código de Processo Penal, considera-se em flagrante delito quem",
+  "subject_name": "Direito Processual Penal",
+  "subject_slug": "direito-processual-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "69b5e911-0a27-5078-9348-3f8e115ace61",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 9,
+  "topics": [
+   {
+    "name": "Inquérito policial",
+    "path": "direito_processual_penal.inquerito_policial"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "é imprescindível para a propositura da ação penal."
+   },
+   {
+    "letter": "B",
+    "body_md": "pode ser arquivado pela autoridade policial."
+   },
+   {
+    "letter": "C",
+    "body_md": "tem natureza inquisitiva e caráter informativo."
+   },
+   {
+    "letter": "D",
+    "body_md": "está sujeito ao contraditório pleno, sob pena de nulidade."
+   },
+   {
+    "letter": "E",
+    "body_md": "só pode ser instaurado mediante requisição judicial."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 3,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "Sobre o inquérito policial, é correto afirmar que",
+  "subject_name": "Direito Processual Penal",
+  "subject_slug": "direito-processual-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "12c6fc02-f0b5-5ff4-965c-3aaf2925395a",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 10,
+  "topics": [
+   {
+    "name": "Protocolos",
+    "path": "informatica.redes_e_internet.protocolos"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "FTP."
+   },
+   {
+    "letter": "B",
+    "body_md": "SMTP."
+   },
+   {
+    "letter": "C",
+    "body_md": "HTTPS."
+   },
+   {
+    "letter": "D",
+    "body_md": "POP3."
+   },
+   {
+    "letter": "E",
+    "body_md": "DNS."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 3,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "O protocolo utilizado para a transferência de páginas *web* de forma criptografada é o",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "3f482796-07bd-5708-b931-0ee4f34a669e",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 11,
+  "topics": [
+   {
+    "name": "Códigos maliciosos",
+    "path": "informatica.seguranca_da_informacao.malware"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "*spyware*."
+   },
+   {
+    "letter": "B",
+    "body_md": "*ransomware*."
+   },
+   {
+    "letter": "C",
+    "body_md": "*adware*."
+   },
+   {
+    "letter": "D",
+    "body_md": "*keylogger*."
+   },
+   {
+    "letter": "E",
+    "body_md": "*worm*."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 3,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "O tipo de código malicioso que cifra os dados da vítima e exige pagamento para liberá-los é o",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "263d00f2-986d-5e81-9f73-e65ff7560dac",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "C",
+  "assets": [
+   {
+    "url": "/assets/0ff23f212b37f3b0b9239f154213c1e46627dea208056a2631adddf75359b12d.svg",
+    "width": 400,
+    "height": 90,
+    "sha256": "0ff23f212b37f3b0b9239f154213c1e46627dea208056a2631adddf75359b12d",
+    "alt_text": "Cinco quadros em sequência com os números 2, 6, 18, 54 e um ponto de interrogação.",
+    "mime_type": "image/svg+xml"
+   }
+  ],
+  "career": "policia_civil",
+  "number": 12,
+  "topics": [
+   {
+    "name": "Sequências numéricas e padrões",
+    "path": "raciocinio_logico.sequencias"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "108"
+   },
+   {
+    "letter": "B",
+    "body_md": "148"
+   },
+   {
+    "letter": "C",
+    "body_md": "162"
+   },
+   {
+    "letter": "D",
+    "body_md": "216"
+   },
+   {
+    "letter": "E",
+    "body_md": "72"
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 3,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "![Cinco quadros em sequência com os números 2, 6, 18, 54 e um ponto de interrogação.](asset:0ff23f212b37f3b0b9239f154213c1e46627dea208056a2631adddf75359b12d)\n\nA figura mostra os quatro primeiros termos de uma sequência. Mantido o mesmo padrão, o termo que substitui o ponto de interrogação é",
+  "subject_name": "Raciocínio Lógico",
+  "subject_slug": "raciocinio-logico",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "d127c588-8ef5-5d87-b59c-b6b51de0e90a",
+  "type": "multiple_choice",
+  "year": 2025,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 13,
+  "topics": [
+   {
+    "name": "Porcentagem",
+    "path": "matematica.porcentagem"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "28 inquéritos."
+   },
+   {
+    "letter": "B",
+    "body_md": "45 inquéritos."
+   },
+   {
+    "letter": "C",
+    "body_md": "52 inquéritos."
+   },
+   {
+    "letter": "D",
+    "body_md": "48 inquéritos."
+   },
+   {
+    "letter": "E",
+    "body_md": "35 inquéritos."
+   }
+  ],
+  "exam_name": "Investigador de Polícia — prova objetiva",
+  "exam_slug": "investigador",
+  "positions": [
+   {
+    "name": "Investigador de Polícia",
+    "slug": "investigador"
+   }
+  ],
+  "applied_on": "2025-03-23",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcsp-2025/investigador.pdf",
+  "agency_name": "Polícia Civil do Estado de São Paulo",
+  "agency_slug": "pc-sp",
+  "source_page": 4,
+  "contest_name": "PC-SP 2025 — Investigador (seed)",
+  "contest_slug": "seed-pcsp-2025",
+  "statement_md": "Um lote de 80 inquéritos foi distribuído entre duas delegacias. A primeira recebeu 35% do lote. A segunda recebeu",
+  "subject_name": "Matemática",
+  "subject_slug": "matematica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PC-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "3de39644-b866-5bdd-a7c2-e2f1615abea0",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "pf",
+  "number": 1,
+  "topics": [
+   {
+    "name": "Compreensão e interpretação de texto",
+    "path": "lingua_portuguesa.interpretacao_de_texto"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": "d784bd34-cd44-5e00-a678-82bdafe7e0da",
+  "passage_md": "A investigação criminal moderna depende cada vez mais da análise de dados. Bancos de informações, registros telefônicos e rastros digitais permitem que as equipes reconstruam, com precisão crescente, a dinâmica de um delito. Contudo, a tecnologia não substitui o trabalho de campo: é o investigador quem formula hipóteses, confronta versões e decide quais evidências merecem atenção. Os dados, por si sós, não falam; precisam ser interrogados.",
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 1,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "De acordo com o texto, a tecnologia tornou o trabalho de campo dispensável na investigação criminal.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "671a5ac0-11b6-5ecb-b5af-b8dc8f8bbcc1",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 2,
+  "topics": [
+   {
+    "name": "Concordância nominal",
+    "path": "lingua_portuguesa.concordancia.nominal"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": "d784bd34-cd44-5e00-a678-82bdafe7e0da",
+  "passage_md": "A investigação criminal moderna depende cada vez mais da análise de dados. Bancos de informações, registros telefônicos e rastros digitais permitem que as equipes reconstruam, com precisão crescente, a dinâmica de um delito. Contudo, a tecnologia não substitui o trabalho de campo: é o investigador quem formula hipóteses, confronta versões e decide quais evidências merecem atenção. Os dados, por si sós, não falam; precisam ser interrogados.",
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 1,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "No trecho “Os dados, por si sós, não falam”, a palavra “sós” concorda em número com “dados”, razão pela qual está flexionada no plural.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "07812252-f7eb-5162-a4bc-3e8de38cd68b",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 3,
+  "topics": [
+   {
+    "name": "Pontuação",
+    "path": "lingua_portuguesa.pontuacao"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": "d784bd34-cd44-5e00-a678-82bdafe7e0da",
+  "passage_md": "A investigação criminal moderna depende cada vez mais da análise de dados. Bancos de informações, registros telefônicos e rastros digitais permitem que as equipes reconstruam, com precisão crescente, a dinâmica de um delito. Contudo, a tecnologia não substitui o trabalho de campo: é o investigador quem formula hipóteses, confronta versões e decide quais evidências merecem atenção. Os dados, por si sós, não falam; precisam ser interrogados.",
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 1,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "Os dois-pontos empregados logo após “trabalho de campo” introduzem uma explicação do que se afirma na oração anterior.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "f01c1abf-8a9b-5328-886e-085590137100",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "pf",
+  "number": 4,
+  "topics": [
+   {
+    "name": "Conectivos",
+    "path": "lingua_portuguesa.coesao_e_coerencia.conectivos"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": "d784bd34-cd44-5e00-a678-82bdafe7e0da",
+  "passage_md": "A investigação criminal moderna depende cada vez mais da análise de dados. Bancos de informações, registros telefônicos e rastros digitais permitem que as equipes reconstruam, com precisão crescente, a dinâmica de um delito. Contudo, a tecnologia não substitui o trabalho de campo: é o investigador quem formula hipóteses, confronta versões e decide quais evidências merecem atenção. Os dados, por si sós, não falam; precisam ser interrogados.",
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 1,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "A substituição de “Contudo” por **Portanto** preservaria o sentido original do texto.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "a5823f4f-3d35-51d5-922e-e07057942c13",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 5,
+  "topics": [
+   {
+    "name": "Órgãos policiais",
+    "path": "direito_constitucional.seguranca_publica.orgaos_policiais"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 2,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "Segundo a Constituição Federal de 1988, a Polícia Federal é instituída por lei como órgão permanente, organizado e mantido pela União e estruturado em carreira.",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "52603986-2bae-5f57-a13d-dc64b889acce",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "pf",
+  "number": 6,
+  "topics": [
+   {
+    "name": "Remédios constitucionais",
+    "path": "direito_constitucional.direitos_e_garantias_fundamentais.remedios_constitucionais"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 2,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "O *habeas data* é o remédio constitucional adequado para assegurar o direito de locomoção de quem sofre ameaça de prisão ilegal.",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "a2c9db11-b15d-537a-a907-619616e80300",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 7,
+  "topics": [
+   {
+    "name": "Direitos e deveres individuais e coletivos",
+    "path": "direito_constitucional.direitos_e_garantias_fundamentais.direitos_individuais"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 2,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "A casa é asilo inviolável do indivíduo, mas nela se pode penetrar, sem consentimento do morador, em caso de flagrante delito, ainda que durante a noite.",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "b07bee3e-f3eb-5071-8e25-2af52f0571ae",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 8,
+  "topics": [
+   {
+    "name": "Tempo do crime",
+    "path": "direito_penal.aplicacao_da_lei_penal.tempo_do_crime"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 2,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "c8380680-da2f-5c52-ae36-86ff5f9c9e97",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 9,
+  "topics": [
+   {
+    "name": "Furto",
+    "path": "direito_penal.crimes_contra_o_patrimonio.furto"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 3,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "No crime de furto, a pena é aumentada de um terço se o fato é praticado durante o repouso noturno.",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "caba977a-89c6-539b-9d59-fea0219fcf0a",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "pf",
+  "number": 10,
+  "topics": [
+   {
+    "name": "Roubo",
+    "path": "direito_penal.crimes_contra_o_patrimonio.roubo"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 3,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "Para a configuração do crime de roubo, é indispensável que a violência ou a grave ameaça seja dirigida contra o próprio titular do patrimônio subtraído.",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "changed",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "17c6d808-c105-5cfd-b395-9530df3c71cf",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "pf",
+  "number": 11,
+  "topics": [
+   {
+    "name": "Inquérito policial",
+    "path": "direito_processual_penal.inquerito_policial"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 3,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "O inquérito policial é procedimento indispensável ao oferecimento da denúncia pelo Ministério Público.",
+  "subject_name": "Direito Processual Penal",
+  "subject_slug": "direito-processual-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "80154778-7a6f-5c58-9b04-92d5509b050e",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 12,
+  "topics": [
+   {
+    "name": "Inquérito policial",
+    "path": "direito_processual_penal.inquerito_policial"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 3,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "A autoridade policial não poderá mandar arquivar autos de inquérito.",
+  "subject_name": "Direito Processual Penal",
+  "subject_slug": "direito-processual-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "ec2df32f-9d99-595d-8e61-6f0280edf03e",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [
+   {
+    "url": "/assets/da551c8e5be5f45863f5befa198002e3f2ebb6fb4857df032137892f76d9d258.svg",
+    "width": 320,
+    "height": 200,
+    "sha256": "da551c8e5be5f45863f5befa198002e3f2ebb6fb4857df032137892f76d9d258",
+    "alt_text": "Planilha com a coluna A (Equipe: Alfa, Bravo, Charlie) e a coluna B (Ocorrências: 10, 20 e 30 nas células B2, B3 e B4); a célula B5 está destacada e vazia.",
+    "mime_type": "image/svg+xml"
+   }
+  ],
+  "career": "pf",
+  "number": 13,
+  "topics": [
+   {
+    "name": "Planilhas eletrônicas (Excel, Calc)",
+    "path": "informatica.planilhas_eletronicas"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 4,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "![Planilha com a coluna A (Equipe: Alfa, Bravo, Charlie) e a coluna B (Ocorrências: 10, 20 e 30 nas células B2, B3 e B4); a célula B5 está destacada e vazia.](asset:da551c8e5be5f45863f5befa198002e3f2ebb6fb4857df032137892f76d9d258)\n\nConsiderando a planilha mostrada na figura, a fórmula `=MÉDIA(B2:B4)`, inserida na célula B5, resultará no valor 20.",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "48404960-dd49-503d-a572-0d983e61c87a",
+  "type": "true_false",
+  "year": 2025,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "pf",
+  "number": 14,
+  "topics": [
+   {
+    "name": "Golpes e ataques",
+    "path": "informatica.seguranca_da_informacao.golpes_e_ataques"
+   }
+  ],
+  "options": [],
+  "exam_name": "Agente de Polícia Federal — prova objetiva",
+  "exam_slug": "agente",
+  "positions": [
+   {
+    "name": "Agente de Polícia Federal",
+    "slug": "agente"
+   }
+  ],
+  "applied_on": "2025-06-15",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pf-2025/agente.pdf",
+  "agency_name": "Polícia Federal",
+  "agency_slug": "pf",
+  "source_page": 4,
+  "contest_name": "PF 2025 — Agente (seed)",
+  "contest_slug": "seed-pf-2025",
+  "statement_md": "*Phishing* é uma técnica em que o atacante se passa por instituição confiável para induzir a vítima a fornecer dados sensíveis.",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "a22d7464-04f9-59c4-8c50-80056eb1f230",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 1,
+  "topics": [
+   {
+    "name": "Compreensão e interpretação de texto",
+    "path": "lingua_portuguesa.interpretacao_de_texto"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "perseguições e confrontos."
+   },
+   {
+    "letter": "B",
+    "body_md": "escuta, registro e paciência."
+   },
+   {
+    "letter": "C",
+    "body_md": "diligências espetaculares."
+   },
+   {
+    "letter": "D",
+    "body_md": "improvisação."
+   },
+   {
+    "letter": "E",
+    "body_md": "uso intensivo da força."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": "e1e9d266-cbea-50a3-b81f-459885b60a5d",
+  "passage_md": "O trabalho policial é frequentemente retratado como uma sucessão de perseguições e confrontos. A rotina real, porém, é feita sobretudo de escuta, registro e paciência. Um boletim de ocorrência bem redigido pode ser mais decisivo para a solução de um caso do que uma diligência espetacular, porque é nele que se preservam os detalhes que a memória, com o tempo, apaga.",
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 1,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "Segundo o texto, a rotina real do trabalho policial caracteriza-se principalmente por",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "50f4dc03-323c-5ba9-bc3c-789049abd52c",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 2,
+  "topics": [
+   {
+    "name": "Referenciação",
+    "path": "lingua_portuguesa.coesao_e_coerencia.referenciacao"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "o trabalho policial."
+   },
+   {
+    "letter": "B",
+    "body_md": "o caso."
+   },
+   {
+    "letter": "C",
+    "body_md": "o boletim de ocorrência."
+   },
+   {
+    "letter": "D",
+    "body_md": "a diligência."
+   },
+   {
+    "letter": "E",
+    "body_md": "o tempo."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": "e1e9d266-cbea-50a3-b81f-459885b60a5d",
+  "passage_md": "O trabalho policial é frequentemente retratado como uma sucessão de perseguições e confrontos. A rotina real, porém, é feita sobretudo de escuta, registro e paciência. Um boletim de ocorrência bem redigido pode ser mais decisivo para a solução de um caso do que uma diligência espetacular, porque é nele que se preservam os detalhes que a memória, com o tempo, apaga.",
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 1,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "No trecho “porque é nele que se preservam os detalhes”, o pronome “nele” retoma",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "9ab71328-e723-51a5-ac3e-50f09cd29892",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "A",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 3,
+  "topics": [
+   {
+    "name": "Termos da oração",
+    "path": "lingua_portuguesa.sintaxe.termos_da_oracao"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "<u>Ontem</u>, o inspetor ouviu as testemunhas."
+   },
+   {
+    "letter": "B",
+    "body_md": "O inspetor ouviu <u>as testemunhas</u>."
+   },
+   {
+    "letter": "C",
+    "body_md": "<u>O inspetor</u> ouviu as testemunhas ontem."
+   },
+   {
+    "letter": "D",
+    "body_md": "O inspetor <u>ouviu</u> as testemunhas."
+   },
+   {
+    "letter": "E",
+    "body_md": "As testemunhas foram ouvidas <u>pelo inspetor</u>."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 1,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "A frase em que o termo sublinhado exerce a função de adjunto adverbial de tempo é",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "A",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "b9d58714-43a4-541e-b67a-06cb2a8d5cab",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 4,
+  "topics": [
+   {
+    "name": "Segurança pública",
+    "path": "direito_constitucional.seguranca_publica"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "dever exclusivo da União."
+   },
+   {
+    "letter": "B",
+    "body_md": "dever do Estado, direito e responsabilidade de todos."
+   },
+   {
+    "letter": "C",
+    "body_md": "atribuição exclusiva das polícias militares."
+   },
+   {
+    "letter": "D",
+    "body_md": "responsabilidade apenas dos municípios."
+   },
+   {
+    "letter": "E",
+    "body_md": "dever do Estado, sem participação da sociedade."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 1,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "Segundo a Constituição Federal, a segurança pública é",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "f3443914-9b11-5bd7-ba93-5f635899a966",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 5,
+  "topics": [
+   {
+    "name": "Direitos e deveres individuais e coletivos",
+    "path": "direito_constitucional.direitos_e_garantias_fundamentais.direitos_individuais"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "haja autorização prévia da autoridade policial."
+   },
+   {
+    "letter": "B",
+    "body_md": "não frustrem outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade competente."
+   },
+   {
+    "letter": "C",
+    "body_md": "a reunião ocorra somente em dias úteis."
+   },
+   {
+    "letter": "D",
+    "body_md": "o número de participantes não ultrapasse cem pessoas."
+   },
+   {
+    "letter": "E",
+    "body_md": "a reunião seja comunicada ao Poder Judiciário com trinta dias de antecedência."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 2,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, desde que",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "7f31d81d-61c5-5fb8-9b7b-6bbed8aada20",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 6,
+  "topics": [
+   {
+    "name": "Iter criminis, tentativa e desistência",
+    "path": "direito_penal.teoria_do_crime.iter_criminis"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "arrependimento posterior."
+   },
+   {
+    "letter": "B",
+    "body_md": "crime impossível."
+   },
+   {
+    "letter": "C",
+    "body_md": "desistência voluntária."
+   },
+   {
+    "letter": "D",
+    "body_md": "tentativa perfeita."
+   },
+   {
+    "letter": "E",
+    "body_md": "arrependimento eficaz."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 2,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "Quando o agente, voluntariamente, desiste de prosseguir na execução do crime, ocorre",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "8c4cf665-55ab-5a5e-9914-d0ab8ce746d9",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 7,
+  "topics": [
+   {
+    "name": "Homicídio",
+    "path": "direito_penal.crimes_contra_a_pessoa.homicidio"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "privilegiado."
+   },
+   {
+    "letter": "B",
+    "body_md": "culposo."
+   },
+   {
+    "letter": "C",
+    "body_md": "qualificado."
+   },
+   {
+    "letter": "D",
+    "body_md": "simples."
+   },
+   {
+    "letter": "E",
+    "body_md": "preterdoloso."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 2,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "O homicídio praticado mediante paga ou promessa de recompensa é classificado como",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "ced692d1-338c-508f-9553-cc69c701b529",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 8,
+  "topics": [
+   {
+    "name": "Prisão em flagrante",
+    "path": "direito_processual_penal.prisao.prisao_em_flagrante"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "apenas à família do preso."
+   },
+   {
+    "letter": "B",
+    "body_md": "ao juiz competente, ao Ministério Público e à família do preso ou à pessoa por ele indicada."
+   },
+   {
+    "letter": "C",
+    "body_md": "somente ao Ministério Público."
+   },
+   {
+    "letter": "D",
+    "body_md": "ao juiz competente, no prazo de cinco dias."
+   },
+   {
+    "letter": "E",
+    "body_md": "exclusivamente à Defensoria Pública."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 2,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "A prisão de qualquer pessoa e o local onde se encontre devem ser comunicados imediatamente",
+  "subject_name": "Direito Processual Penal",
+  "subject_slug": "direito-processual-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "5eb67fab-a68f-5aa5-a874-8440a1ebaf98",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "D",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 9,
+  "topics": [
+   {
+    "name": "Poder de polícia",
+    "path": "direito_administrativo.poderes_administrativos.poder_de_policia"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "hierárquico."
+   },
+   {
+    "letter": "B",
+    "body_md": "disciplinar."
+   },
+   {
+    "letter": "C",
+    "body_md": "regulamentar."
+   },
+   {
+    "letter": "D",
+    "body_md": "de polícia."
+   },
+   {
+    "letter": "E",
+    "body_md": "normativo."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 3,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "O poder conferido à administração para condicionar e restringir o uso e o gozo de bens, atividades e direitos individuais em benefício da coletividade é o poder",
+  "subject_name": "Direito Administrativo",
+  "subject_slug": "direito-administrativo",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "D",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "2318c91a-629e-58f5-b937-8ade0b79b75c",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "A",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 10,
+  "topics": [
+   {
+    "name": "Atributos do ato administrativo",
+    "path": "direito_administrativo.atos_administrativos.atributos"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "imperatividade."
+   },
+   {
+    "letter": "B",
+    "body_md": "tipicidade."
+   },
+   {
+    "letter": "C",
+    "body_md": "motivação."
+   },
+   {
+    "letter": "D",
+    "body_md": "publicidade."
+   },
+   {
+    "letter": "E",
+    "body_md": "finalidade."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 3,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "O atributo do ato administrativo que permite sua imposição a terceiros, independentemente de sua concordância, é a",
+  "subject_name": "Direito Administrativo",
+  "subject_slug": "direito-administrativo",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "A",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "813b66da-10bb-5eb0-a150-cd43b4e53f1b",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 11,
+  "topics": [
+   {
+    "name": "Planilhas eletrônicas (Excel, Calc)",
+    "path": "informatica.planilhas_eletronicas"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "Aprovado."
+   },
+   {
+    "letter": "B",
+    "body_md": "Reprovado."
+   },
+   {
+    "letter": "C",
+    "body_md": "6."
+   },
+   {
+    "letter": "D",
+    "body_md": "7."
+   },
+   {
+    "letter": "E",
+    "body_md": "VERDADEIRO."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 3,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "Em uma planilha eletrônica, a fórmula `=SE(A1>=7;\"Aprovado\";\"Reprovado\")` retornará, quando A1 contiver o valor 6,",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "79872685-f56a-5638-b886-eb55d8d50e20",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "A",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 12,
+  "topics": [
+   {
+    "name": "Lógica de argumentação",
+    "path": "raciocinio_logico.logica_de_argumentacao"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "algum servidor não é negligente."
+   },
+   {
+    "letter": "B",
+    "body_md": "todo servidor é inspetor."
+   },
+   {
+    "letter": "C",
+    "body_md": "nenhum servidor é negligente."
+   },
+   {
+    "letter": "D",
+    "body_md": "algum negligente é inspetor."
+   },
+   {
+    "letter": "E",
+    "body_md": "todo negligente é servidor."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 3,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "Se é verdade que “Nenhum inspetor é negligente” e que “Algum servidor é inspetor”, então é necessariamente verdade que",
+  "subject_name": "Raciocínio Lógico",
+  "subject_slug": "raciocinio-logico",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "A",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "ffd004ca-ad63-553d-a200-6d573aaf0b1b",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "RJ",
+  "answer": "D",
+  "assets": [],
+  "career": "policia_civil",
+  "number": 13,
+  "topics": [
+   {
+    "name": "Lei de Drogas (Lei nº 11.343/2006)",
+    "path": "legislacao_penal_especial.lei_de_drogas"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "advertência sobre os efeitos das drogas."
+   },
+   {
+    "letter": "B",
+    "body_md": "prestação de serviços à comunidade."
+   },
+   {
+    "letter": "C",
+    "body_md": "medida educativa de comparecimento a programa ou curso educativo."
+   },
+   {
+    "letter": "D",
+    "body_md": "pena privativa de liberdade."
+   },
+   {
+    "letter": "E",
+    "body_md": "aplicação isolada ou cumulativa das medidas previstas."
+   }
+  ],
+  "exam_name": "Inspetor de Polícia Civil — prova objetiva",
+  "exam_slug": "inspetor",
+  "positions": [
+   {
+    "name": "Inspetor de Polícia Civil",
+    "slug": "inspetor"
+   }
+  ],
+  "applied_on": "2024-11-10",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pcrj-2024/inspetor.pdf",
+  "agency_name": "Polícia Civil do Estado do Rio de Janeiro",
+  "agency_slug": "pc-rj",
+  "source_page": 4,
+  "contest_name": "PC-RJ 2024 — Inspetor (seed)",
+  "contest_slug": "seed-pcrj-2024",
+  "statement_md": "Segundo a Lei nº 11.343/2006, a quem adquire ou traz consigo droga para consumo pessoal **não** é prevista a",
+  "subject_name": "Legislação Penal Especial",
+  "subject_slug": "legislacao-penal-especial",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação Getulio Vargas",
+  "exam_board_slug": "fgv",
+  "government_level": "estadual",
+  "agency_short_name": "PC-RJ",
+  "answer_preliminary": "D",
+  "exam_board_short_name": "FGV"
+ },
+ {
+  "id": "3d753b55-74ae-5fb7-86d7-7651cf5aec2d",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 1,
+  "topics": [
+   {
+    "name": "Ortografia",
+    "path": "lingua_portuguesa.ortografia"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "excessão"
+   },
+   {
+    "letter": "B",
+    "body_md": "previlégio"
+   },
+   {
+    "letter": "C",
+    "body_md": "exceção"
+   },
+   {
+    "letter": "D",
+    "body_md": "beneficiente"
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 1,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Assinale a alternativa em que a palavra está grafada corretamente.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "e7f7aab6-145e-5157-8def-c5abe17aafe8",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 2,
+  "topics": [
+   {
+    "name": "Concordância nominal",
+    "path": "lingua_portuguesa.concordancia.nominal"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "Seguem anexo os documentos."
+   },
+   {
+    "letter": "B",
+    "body_md": "É proibida entrada de pessoas estranhas."
+   },
+   {
+    "letter": "C",
+    "body_md": "Ela mesma redigiu o relatório."
+   },
+   {
+    "letter": "D",
+    "body_md": "Ficaram bastantes satisfeitos os comandantes."
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 1,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Assinale a alternativa correta quanto à concordância nominal.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "33408219-51fa-5038-b5d7-bb0bbc61e1fd",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "A",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 3,
+  "topics": [
+   {
+    "name": "Órgãos policiais",
+    "path": "direito_constitucional.seguranca_publica.orgaos_policiais"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "a polícia ostensiva e a preservação da ordem pública."
+   },
+   {
+    "letter": "B",
+    "body_md": "as funções de polícia judiciária da União."
+   },
+   {
+    "letter": "C",
+    "body_md": "a apuração das infrações penais militares federais."
+   },
+   {
+    "letter": "D",
+    "body_md": "o patrulhamento ostensivo das rodovias federais."
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 1,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Às polícias militares cabem, segundo a Constituição Federal,",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "A",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "e79db1c4-10dc-57e0-996d-373fee4de1a8",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "A",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 4,
+  "topics": [
+   {
+    "name": "Direitos sociais",
+    "path": "direito_constitucional.direitos_e_garantias_fundamentais.direitos_sociais"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "a educação, a saúde e a segurança."
+   },
+   {
+    "letter": "B",
+    "body_md": "o *habeas corpus* e o mandado de segurança."
+   },
+   {
+    "letter": "C",
+    "body_md": "a nacionalidade e a cidadania."
+   },
+   {
+    "letter": "D",
+    "body_md": "o voto e a elegibilidade."
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 1,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "São direitos sociais, conforme o art. 6º da Constituição Federal, entre outros,",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "A",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "b89e8e25-11e5-5fed-b949-45e784ce2c75",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 5,
+  "topics": [
+   {
+    "name": "Excludentes de ilicitude",
+    "path": "direito_penal.teoria_do_crime.excludentes_de_ilicitude"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "agressão futura e incerta."
+   },
+   {
+    "letter": "B",
+    "body_md": "injusta agressão, atual ou iminente, a direito seu ou de outrem."
+   },
+   {
+    "letter": "C",
+    "body_md": "qualquer agressão, ainda que justa."
+   },
+   {
+    "letter": "D",
+    "body_md": "perigo atual que não provocou por sua vontade."
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 2,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "2ccdbd7e-fd70-5f17-b271-f9f32d1317d1",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 6,
+  "topics": [
+   {
+    "name": "Furto",
+    "path": "direito_penal.crimes_contra_o_patrimonio.furto"
+   },
+   {
+    "name": "Roubo",
+    "path": "direito_penal.crimes_contra_o_patrimonio.roubo"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "há emprego de violência contra a pessoa."
+   },
+   {
+    "letter": "B",
+    "body_md": "não há violência ou grave ameaça contra a pessoa."
+   },
+   {
+    "letter": "C",
+    "body_md": "a coisa subtraída é imóvel."
+   },
+   {
+    "letter": "D",
+    "body_md": "a vítima entrega a coisa voluntariamente."
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 2,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "O crime de furto distingue-se do roubo porque, no furto,",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "d5652a9a-6b0d-5b6c-9868-de58a3a31df3",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 7,
+  "topics": [
+   {
+    "name": "Razão, proporção e regra de três",
+    "path": "matematica.razao_e_proporcao"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "45"
+   },
+   {
+    "letter": "B",
+    "body_md": "50"
+   },
+   {
+    "letter": "C",
+    "body_md": "55"
+   },
+   {
+    "letter": "D",
+    "body_md": "60"
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 2,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Uma viatura percorre 240 km com 30 litros de combustível. Mantido o mesmo consumo, quantos litros serão necessários para percorrer 400 km?",
+  "subject_name": "Matemática",
+  "subject_slug": "matematica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "b893fc53-9653-586c-8ad4-fadeb55876ef",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "B",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 8,
+  "topics": [
+   {
+    "name": "Porcentagem",
+    "path": "matematica.porcentagem"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "36"
+   },
+   {
+    "letter": "B",
+    "body_md": "84"
+   },
+   {
+    "letter": "C",
+    "body_md": "90"
+   },
+   {
+    "letter": "D",
+    "body_md": "80"
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 2,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Um batalhão tem 120 soldados, dos quais 30% são mulheres. O número de homens é",
+  "subject_name": "Matemática",
+  "subject_slug": "matematica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "B",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "9e5c546d-68f5-569c-b93a-1673300e2914",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "A",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 9,
+  "topics": [
+   {
+    "name": "Sequências numéricas e padrões",
+    "path": "raciocinio_logico.sequencias"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "39"
+   },
+   {
+    "letter": "B",
+    "body_md": "43"
+   },
+   {
+    "letter": "C",
+    "body_md": "40"
+   },
+   {
+    "letter": "D",
+    "body_md": "41"
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 3,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Considere a sequência 3, 7, 11, 15, … O 10º termo dessa sequência é",
+  "subject_name": "Raciocínio Lógico",
+  "subject_slug": "raciocinio-logico",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "A",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "fb100307-a070-500b-8473-bdc42ce844eb",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 10,
+  "topics": [
+   {
+    "name": "Windows",
+    "path": "informatica.sistemas_operacionais.windows"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "Ctrl+V"
+   },
+   {
+    "letter": "B",
+    "body_md": "Ctrl+X"
+   },
+   {
+    "letter": "C",
+    "body_md": "Ctrl+C"
+   },
+   {
+    "letter": "D",
+    "body_md": "Ctrl+Z"
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 3,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "No Windows, o atalho de teclado utilizado para copiar um item selecionado é",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "4d246322-7c15-5dc9-9452-5a8dd21dc42d",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "C",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 11,
+  "topics": [
+   {
+    "name": "Correio eletrônico",
+    "path": "informatica.redes_e_internet.correio_eletronico"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "Para"
+   },
+   {
+    "letter": "B",
+    "body_md": "Cc"
+   },
+   {
+    "letter": "C",
+    "body_md": "Cco"
+   },
+   {
+    "letter": "D",
+    "body_md": "Assunto"
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 3,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "Para enviar uma mensagem de correio eletrônico a um destinatário sem que os demais destinatários vejam seu endereço, deve-se utilizar o campo",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "365d9de4-95cf-50d9-9268-0aba9fe04645",
+  "type": "multiple_choice",
+  "year": 2024,
+  "state": "SP",
+  "answer": "A",
+  "assets": [],
+  "career": "policia_militar",
+  "number": 12,
+  "topics": [
+   {
+    "name": "Direitos e deveres individuais e coletivos",
+    "path": "direito_constitucional.direitos_e_garantias_fundamentais.direitos_individuais"
+   }
+  ],
+  "options": [
+   {
+    "letter": "A",
+    "body_md": "os direitos e garantias fundamentais."
+   },
+   {
+    "letter": "B",
+    "body_md": "as normas de organização dos Poderes."
+   },
+   {
+    "letter": "C",
+    "body_md": "as disposições sobre o sistema tributário."
+   },
+   {
+    "letter": "D",
+    "body_md": "as regras da ordem econômica."
+   }
+  ],
+  "exam_name": "Soldado PM de 2ª Classe — prova objetiva",
+  "exam_slug": "soldado",
+  "positions": [
+   {
+    "name": "Soldado PM de 2ª Classe",
+    "slug": "soldado"
+   }
+  ],
+  "applied_on": "2024-05-05",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-pmsp-2024/soldado.pdf",
+  "agency_name": "Polícia Militar do Estado de São Paulo",
+  "agency_slug": "pm-sp",
+  "source_page": 3,
+  "contest_name": "PM-SP 2024 — Soldado (seed)",
+  "contest_slug": "seed-pmsp-2024",
+  "statement_md": "A Constituição Federal estabelece que ninguém será submetido a tortura nem a tratamento desumano ou degradante. Essa garantia está prevista entre",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Fundação para o Vestibular da Universidade Estadual Paulista",
+  "exam_board_slug": "vunesp",
+  "government_level": "estadual",
+  "agency_short_name": "PM-SP",
+  "answer_preliminary": "A",
+  "exam_board_short_name": "Vunesp"
+ },
+ {
+  "id": "9837a453-1b7a-5d25-9e2f-2888e4ca8c6f",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "prf",
+  "number": 1,
+  "topics": [
+   {
+    "name": "Negação de proposições",
+    "path": "raciocinio_logico.logica_proposicional.negacao"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 1,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "A negação da proposição “Todos os condutores foram multados” é “Nenhum condutor foi multado”.",
+  "subject_name": "Raciocínio Lógico",
+  "subject_slug": "raciocinio-logico",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "f3dcd382-3cda-5c21-beeb-04e7078ba361",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "prf",
+  "number": 2,
+  "topics": [
+   {
+    "name": "Equivalências lógicas",
+    "path": "raciocinio_logico.logica_proposicional.equivalencias"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 1,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "A proposição “Se chove, então a pista fica escorregadia” é equivalente a “Se a pista não fica escorregadia, então não chove”.",
+  "subject_name": "Raciocínio Lógico",
+  "subject_slug": "raciocinio-logico",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "2bc00fa6-c204-5ddb-896c-c49bf37aa4ee",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "prf",
+  "number": 3,
+  "topics": [
+   {
+    "name": "Porcentagem",
+    "path": "matematica.porcentagem"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": "2c8ec3ce-4bf3-5a3b-a078-e3a8a37bd88b",
+  "passage_md": "A tabela a seguir mostra o número de autuações registradas em um posto de fiscalização no primeiro trimestre de um ano.\n\n| Mês | Autuações |\n|---|---:|\n| Janeiro | 200 |\n| Fevereiro | 250 |\n| Março | 240 |",
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 1,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "Com base na tabela, o número de autuações em fevereiro foi 25% superior ao de janeiro.",
+  "subject_name": "Matemática",
+  "subject_slug": "matematica",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "432cadf9-d52c-53f6-99f2-6d94dff5af39",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "prf",
+  "number": 4,
+  "topics": [
+   {
+    "name": "Média",
+    "path": "matematica.estatistica_basica.media"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": "2c8ec3ce-4bf3-5a3b-a078-e3a8a37bd88b",
+  "passage_md": "A tabela a seguir mostra o número de autuações registradas em um posto de fiscalização no primeiro trimestre de um ano.\n\n| Mês | Autuações |\n|---|---:|\n| Janeiro | 200 |\n| Fevereiro | 250 |\n| Março | 240 |",
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 1,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "Com base na tabela, a média mensal de autuações no trimestre foi superior a 230.",
+  "subject_name": "Matemática",
+  "subject_slug": "matematica",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "ee10b29e-bf3b-599e-be9c-1f79d68cb021",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "prf",
+  "number": 5,
+  "topics": [
+   {
+    "name": "Órgãos policiais",
+    "path": "direito_constitucional.seguranca_publica.orgaos_policiais"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 2,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "A Polícia Rodoviária Federal destina-se, na forma da lei, ao patrulhamento ostensivo das rodovias federais.",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "42f48100-b3bf-5937-93e9-3ee8c5964189",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "prf",
+  "number": 6,
+  "topics": [
+   {
+    "name": "Direitos e deveres individuais e coletivos",
+    "path": "direito_constitucional.direitos_e_garantias_fundamentais.direitos_individuais"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 2,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "É livre a manifestação do pensamento, sendo permitido o anonimato.",
+  "subject_name": "Direito Constitucional",
+  "subject_slug": "direito-constitucional",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "ef3c617b-e5fd-5ec1-9b12-65317047666d",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "prf",
+  "number": 7,
+  "topics": [
+   {
+    "name": "Atributos do ato administrativo",
+    "path": "direito_administrativo.atos_administrativos.atributos"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 2,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "A autoexecutoriedade permite à administração pública executar suas próprias decisões sem prévia autorização do Poder Judiciário, nos casos previstos em lei ou em situações de urgência.",
+  "subject_name": "Direito Administrativo",
+  "subject_slug": "direito-administrativo",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "6bf0aa67-9ff4-5030-b232-3ba9dd83b31b",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "prf",
+  "number": 8,
+  "topics": [
+   {
+    "name": "Poder disciplinar",
+    "path": "direito_administrativo.poderes_administrativos.poder_disciplinar"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 2,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "O poder disciplinar é exercido pela administração sobre todos os particulares, independentemente de qualquer vínculo com o Estado.",
+  "subject_name": "Direito Administrativo",
+  "subject_slug": "direito-administrativo",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "b6cc32e3-5dab-55be-adfb-9dbf50439693",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "prf",
+  "number": 9,
+  "topics": [
+   {
+    "name": "Atributos do ato administrativo",
+    "path": "direito_administrativo.atos_administrativos.atributos"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 3,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "A presunção de legitimidade dos atos administrativos é absoluta e não admite prova em contrário.",
+  "subject_name": "Direito Administrativo",
+  "subject_slug": "direito-administrativo",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "7b909ce8-f2aa-5b01-88df-36a75f3372a9",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "prf",
+  "number": 10,
+  "topics": [
+   {
+    "name": "Dolo e culpa",
+    "path": "direito_penal.teoria_do_crime.dolo_e_culpa"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 3,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "Homicídio culposo é aquele em que o agente quis o resultado ou assumiu o risco de produzi-lo.",
+  "subject_name": "Direito Penal",
+  "subject_slug": "direito-penal",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "679324f9-8c3e-5fb4-87a4-5aab65f61304",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "E",
+  "assets": [],
+  "career": "prf",
+  "number": 11,
+  "topics": [
+   {
+    "name": "Concordância verbal",
+    "path": "lingua_portuguesa.concordancia.verbal"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 3,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "Na frase “Haviam muitos veículos na rodovia”, o verbo haver está corretamente flexionado.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "10284b72-20bf-5894-a44f-2bd556234c22",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": "C",
+  "assets": [],
+  "career": "prf",
+  "number": 12,
+  "topics": [
+   {
+    "name": "Crase",
+    "path": "lingua_portuguesa.crase"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 3,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "Em “Refiro-me à fiscalização das rodovias”, o emprego do sinal indicativo de crase é obrigatório.",
+  "subject_name": "Língua Portuguesa",
+  "subject_slug": "lingua-portuguesa",
+  "answer_status": "valid",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "C",
+  "exam_board_short_name": "Cebraspe"
+ },
+ {
+  "id": "a5373b39-f9d4-520d-bbf3-ec5ad2f23258",
+  "type": "true_false",
+  "year": 2024,
+  "state": null,
+  "answer": null,
+  "assets": [],
+  "career": "prf",
+  "number": 13,
+  "topics": [
+   {
+    "name": "Mecanismos de proteção",
+    "path": "informatica.seguranca_da_informacao.mecanismos_de_protecao"
+   }
+  ],
+  "options": [],
+  "exam_name": "Policial Rodoviário Federal — prova objetiva",
+  "exam_slug": "policial",
+  "positions": [
+   {
+    "name": "Policial Rodoviário Federal",
+    "slug": "policial-rodoviario-federal"
+   }
+  ],
+  "applied_on": "2024-08-18",
+  "passage_id": null,
+  "passage_md": null,
+  "source_url": "https://seed.emmoni.invalid/seed-prf-2024/policial.pdf",
+  "agency_name": "Polícia Rodoviária Federal",
+  "agency_slug": "prf",
+  "source_page": 4,
+  "contest_name": "PRF 2024 — Policial Rodoviário Federal (seed)",
+  "contest_slug": "seed-prf-2024",
+  "statement_md": "Um *firewall* impede, por si só, qualquer tipo de infecção por vírus em um computador.",
+  "subject_name": "Informática",
+  "subject_slug": "informatica",
+  "answer_status": "annulled",
+  "exam_board_name": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+  "exam_board_slug": "cebraspe",
+  "government_level": "federal",
+  "agency_short_name": "PRF",
+  "answer_preliminary": "E",
+  "exam_board_short_name": "Cebraspe"
+ }
+]
