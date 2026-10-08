@@ -4,7 +4,7 @@
 > No Plantão o site não consulta o banco: lê o snapshot gravado por `npm run snapshot` em
 > `data/snapshot/`, com as linhas das views do esquema `api` descritas aqui. Filtros, facetas e
 > busca textual (seções 2 e 3) são reimplementados no navegador sobre o snapshot, com a mesma
-> semântica. Ver `docs/SPECIFICATIONS.md` §3.
+> semântica. Ver `SPECIFICATION.md` §3.
 
 **Versão 1.2** · 2026-10-08
 

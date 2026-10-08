@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Exporta um snapshot do esquema `api` do emmoni para data/snapshot/ e as imagens para public/assets/.
 // O site é estático (GitHub Pages): tudo o que ele mostra vem deste snapshot, gerado na máquina
-// que tem acesso ao Postgres do emmoni. Ver docs/SPECIFICATIONS.md §3.
+// que tem acesso ao Postgres do emmoni. Ver SPECIFICATION.md §3.
 //
 // Uso:
 //   npm run snapshot                       # só o seed (questões fictícias, contest_slug seed-*)
