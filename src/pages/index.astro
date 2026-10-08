@@ -1,0 +1,66 @@
+---
+// Página provisória: prova que o pipeline snapshot → build → GitHub Pages funciona.
+// O agente de front-end substitui esta página pelo produto (docs/SPECIFICATIONS.md §6).
+import { countBy, exams, meta, questions } from '../lib/snapshot';
+
+const byBoard = countBy(questions, (q) => q.exam_board_short_name);
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plantão — questões de concursos policiais</title>
+    <meta
+      name="description"
+      content="Questões de provas oficiais de concursos policiais, por banca, órgão, cargo, ano e assunto."
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Plantão</h1>
+      <p>Questões de provas oficiais de concursos policiais. Em construção.</p>
+      {meta.scope === 'seed' && (
+        <p class="aviso">Por enquanto, só questões de exemplo (fictícias).</p>
+      )}
+      <p>
+        <strong>{questions.length}</strong> questões de <strong>{exams.length}</strong> provas.
+      </p>
+      <ul>
+        {byBoard.map((b) => (
+          <li>{b.value}: {b.count}</li>
+        ))}
+      </ul>
+    </main>
+  </body>
+</html>
+
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1d1d1b;
+    --muted: #5c5a55;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614;
+      --fg: #eceae4;
+      --muted: #a8a59d;
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 1.125rem/1.6 system-ui, sans-serif;
+  }
+  main {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  .aviso {
+    color: var(--muted);
+  }
+</style>
