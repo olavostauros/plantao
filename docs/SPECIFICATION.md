@@ -26,7 +26,7 @@ docs/                   contexto do agente: MISSION.md (porquê), SPECIFICATION.
 |---|---|
 | Framework | **Astro 5**, saída `static`, **TypeScript** estrito |
 | Hospedagem | **GitHub Pages**, `https://olavostauros.github.io/plantao/` (`base: '/plantao'`) |
-| CI/CD | `.github/workflows/pages.yml`: `npm ci` → `npm run gates` → deploy no push ao `main` |
+| CI/CD | `.github/workflows/pages.yml`: `npm ci` → `npm run gates` → deploy no push ao `main`; PR com a label `automerge` entra no `main` sozinho quando os gates passam (decisão 0003) |
 | Testes | Vitest (lógica em `src/lib/`); testes de página quando houver interação |
 | Estilo | **Tailwind CSS 4** (`@tailwindcss/vite`), classes utilitárias no markup; cores e fontes como tokens em `@theme` (`src/styles/global.css`); claro e escuro por `prefers-color-scheme`. `<style>` de componente só para o que o Tailwind não cobre (ex.: conteúdo Markdown renderizado) |
 | Node | ≥ 22 (CI usa 24) |

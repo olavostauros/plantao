@@ -14,8 +14,8 @@ risca. Resumo do ciclo de cada sessão:
    com testes em `tests/`.
 4. Passe pela tela como as personas: Android de entrada em 3G, só teclado e leitor de tela, letra
    grande. Confira os orçamentos do docs/SPECIFICATION.md §4.
-5. `npm run gates` verde. Commit em português, PR para o `main` com o que foi feito, como testar e
-   o que ficou sem verificar.
+5. `npm run gates` verde. Commit em português, PR para o `main` com a label `automerge`, dizendo o
+   que foi feito, como testar e o que ficou sem verificar.
 6. Registre a sessão em `docs/progress/` e sobrescreva o `STATUS.md`.
 
 Limites: não altere nada do emmoni (peça em `docs/requests/`); não rode `npm run snapshot -- --scope
