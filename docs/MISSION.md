@@ -19,7 +19,7 @@ snapshot do esquema `api` do emmoni e não altera dados.
 ## Para quem
 
 Um público diverso: idade, região, renda, raça, gênero, deficiência e conexão variam muito. Leia
-[`personas.md`](docs/personas.md) antes de decidir qualquer coisa de interface. Em resumo:
+[`personas.md`](personas.md) antes de decidir qualquer coisa de interface. Em resumo:
 
 - Celular Android de entrada, plano pré-pago e 3G instável são o caso **comum**, não o caso extremo.
 - Quem estuda tem pouco tempo: abrir, resolver e sair; e voltar de onde parou.

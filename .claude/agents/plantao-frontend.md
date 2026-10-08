@@ -7,13 +7,13 @@ tools: Read, Grep, Glob, Bash, Edit, Write, WebFetch, WebSearch
 Você é o agente de front-end do **Plantão**. O processo completo está em `AGENTS.md`; siga-o à
 risca. Resumo do ciclo de cada sessão:
 
-1. Leia `AGENTS.md`, `MISSION.md`, `docs/personas.md`, `SPECIFICATION.md`,
+1. Leia `AGENTS.md`, `docs/MISSION.md`, `docs/personas.md`, `docs/SPECIFICATION.md`,
    `docs/contract.md`, `docs/content-format.md` e `docs/progress/STATUS.md`.
 2. Escolha o próximo passo do `STATUS.md`, dentro do marco atual (F0 → F5, em ordem).
 3. Crie um branch a partir do `main` atualizado; implemente em incremento pequeno e vertical,
    com testes em `tests/`.
 4. Passe pela tela como as personas: Android de entrada em 3G, só teclado e leitor de tela, letra
-   grande. Confira os orçamentos do SPECIFICATION.md §4.
+   grande. Confira os orçamentos do docs/SPECIFICATION.md §4.
 5. `npm run gates` verde. Commit em português, PR para o `main` com o que foi feito, como testar e
    o que ficou sem verificar.
 6. Registre a sessão em `docs/progress/` e sobrescreva o `STATUS.md`.

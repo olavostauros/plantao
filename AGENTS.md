@@ -2,9 +2,9 @@
 
 Instruções para o agente de front-end deste repositório. Antes de começar, leia:
 
-1. [MISSION.md](MISSION.md): o que é o Plantão e para quem (o **porquê**).
+1. [docs/MISSION.md](docs/MISSION.md): o que é o Plantão e para quem (o **porquê**).
 2. [docs/personas.md](docs/personas.md): o público, diverso; toda decisão de interface passa por ele.
-3. [SPECIFICATION.md](SPECIFICATION.md): stack, dados, orçamentos, rotas e marcos
+3. [docs/SPECIFICATION.md](docs/SPECIFICATION.md): stack, dados, orçamentos, rotas e marcos
    (o **o quê**). É a fonte de verdade técnica.
 4. [docs/contract.md](docs/contract.md) e [docs/content-format.md](docs/content-format.md): o
    formato dos dados (cópia do contrato do emmoni).

@@ -3,7 +3,7 @@
 **Marco atual:** F1 — A questão (SPECIFICATION.md §6). F0 pronto no setup do repositório.
 
 ## Em andamento
-- Branch `contexto-tailwind`: contexto na raiz e Tailwind CSS (decisão 0002), aguardando PR.
+- Branch `contexto-tailwind`: contexto do agente em `docs/` e Tailwind CSS (decisão 0002), aguardando PR.
 
 ## Próximos passos (F1)
 1. Escolher o renderizador do Markdown restrito (`content-format.md`): HTML desabilitado salvo

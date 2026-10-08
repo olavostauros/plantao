@@ -6,9 +6,7 @@ Fonte de verdade técnica do site. Mudou alguma coisa aqui? Registre a decisão 
 ## 1. Estrutura
 
 ```
-AGENTS.md               como o agente trabalha (processo)
-MISSION.md              o que é o Plantão e para quem (porquê)
-SPECIFICATION.md        este arquivo: a fonte de verdade técnica (o quê)
+AGENTS.md               como o agente trabalha (processo); o resto do contexto fica em docs/
 astro.config.mjs        site e base do GitHub Pages; Tailwind via plugin do Vite
 src/pages/              rotas (uma página .astro por rota)
 src/lib/                lógica sem interface: snapshot, filtros, busca, renderização do conteúdo
@@ -18,7 +16,8 @@ data/snapshot/          snapshot do esquema api do emmoni (gerado; versionado no
 public/assets/          imagens das questões (geradas pelo snapshot)
 scripts/                export-snapshot.mjs
 tests/                  Vitest
-docs/                   personas, contrato (cópia), formato do conteúdo, decisões, progresso
+docs/                   contexto do agente: MISSION.md (porquê), SPECIFICATION.md (o quê, este
+                        arquivo), personas, contrato (cópia), formato do conteúdo, decisões, progresso
 ```
 
 ## 2. Stack
@@ -49,8 +48,8 @@ O GitHub Pages só serve arquivos estáticos e não alcança o Postgres do emmon
    é público).
 
 Formato: cada item de `questions.json` é uma linha de `api.question`, no formato da seção 4 de
-[`contract.md`](docs/contract.md); `catalog.json` traz as views da seção 5. O conteúdo (`*_md`) segue
-[`content-format.md`](docs/content-format.md). `question_count` das views conta o banco todo; conte pelo
+[`contract.md`](contract.md); `catalog.json` traz as views da seção 5. O conteúdo (`*_md`) segue
+[`content-format.md`](content-format.md). `question_count` das views conta o banco todo; conte pelo
 snapshot.
 
 **Filtros, facetas e busca** reproduzem no navegador a semântica das seções 2 e 3 do contrato:
