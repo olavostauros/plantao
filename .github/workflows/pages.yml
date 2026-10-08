@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
+    types: [opened, synchronize, reopened, labeled]
   workflow_dispatch:
 
 permissions:
@@ -42,3 +43,26 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Faz o merge do PR no main quando os gates passam, mas só se ele tiver a label `automerge`
+  # (AGENTS.md, fluxo de trabalho); tirar a label segura o PR. Um merge feito com o token do
+  # workflow não dispara o push no main, então o job pede o deploy por workflow_dispatch, a única
+  # forma de esse token iniciar outra execução.
+  automerge:
+    if: github.event_name == 'pull_request' && contains(github.event.pull_request.labels.*.name, 'automerge')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - name: Merge do PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: gh pr merge "$PR" --repo "${{ github.repository }}" --merge --delete-branch
+      - name: Deploy do main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --repo "${{ github.repository }}" --ref main
