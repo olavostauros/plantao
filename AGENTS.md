@@ -53,8 +53,10 @@ Em caso de conflito, o SPECIFICATION.md manda nas decisões técnicas e este arq
    anterior cumprir o critério de "pronto".
 3. Trabalhar em incrementos pequenos e verticais: uma tela completa, testada e no ar, antes de
    ampliar.
-4. Trabalhar num branch (`f1-questao`, `f2-busca`...) e abrir PR para o `main`. O merge no `main`
-   publica no GitHub Pages; o CI roda `npm run gates` em todo PR.
+4. Trabalhar num branch (`f1-questao`, `f2-busca`...) e abrir PR para o `main` **sempre com a
+   label `automerge`** (`gh pr create ... --label automerge`, ou `gh pr edit <n> --add-label
+   automerge`). O CI roda `npm run gates` em todo PR; com os gates verdes e a label, ele faz o
+   merge sozinho e publica no GitHub Pages. Tirar a label segura o PR.
 5. Rodar `npm run gates` (check + testes + build) antes de entregar. Não entregue com gates
    falhando; se algo foi pulado, diga.
 6. Registrar decisões em `docs/decisions/NNNN-titulo.md` (contexto, decisão, consequências;
