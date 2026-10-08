@@ -1,9 +1,9 @@
 # Status — atualizado em 2026-10-08
 
-**Marco atual:** F1 — A questão (SPECIFICATIONS.md §6). F0 pronto no setup do repositório.
+**Marco atual:** F1 — A questão (SPECIFICATION.md §6). F0 pronto no setup do repositório.
 
 ## Em andamento
-- Nada.
+- Branch `contexto-tailwind`: contexto na raiz e Tailwind CSS (decisão 0002), aguardando PR.
 
 ## Próximos passos (F1)
 1. Escolher o renderizador do Markdown restrito (`content-format.md`): HTML desabilitado salvo
@@ -14,7 +14,9 @@
    alternativas, fonte oficial (PDF e página), status do gabarito.
 4. Responder: A–E e Certo/Errado, sem recarregar a página; gabarito preliminar só quando
    `changed`/`annulled` (contrato §4).
-5. Layout base (cabeçalho, rodapé, tema claro/escuro, tipografia legível) seguindo as personas.
+5. Layout base com Tailwind (cabeçalho, rodapé, tema claro/escuro pelos tokens de
+   `src/styles/global.css`, tipografia legível) seguindo as personas. O preflight zera listas e
+   tabelas: o conteúdo Markdown precisa de estilos próprios.
 
 ## Bloqueios e perguntas em aberto
 - Publicar as questões reais (`npm run snapshot -- --scope all`) depende de aprovação do dono.
