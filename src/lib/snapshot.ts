@@ -93,3 +93,16 @@ export function countBy<T>(items: T[], key: (item: T) => string): { value: strin
     .map(([value, count]) => ({ value, count }))
     .sort((a, b) => b.count - a.count || a.value.localeCompare(b.value, 'pt-BR'));
 }
+
+const byExam = new Map<string, Question[]>();
+for (const q of questions) {
+  const key = `${q.contest_slug}/${q.exam_slug}`;
+  if (!byExam.has(key)) byExam.set(key, []);
+  byExam.get(key)!.push(q);
+}
+for (const list of byExam.values()) list.sort((a, b) => a.number - b.number);
+
+/** Questões da mesma prova, na ordem original (inclui a própria). */
+export function examQuestions(q: Pick<Question, 'contest_slug' | 'exam_slug'>): Question[] {
+  return byExam.get(`${q.contest_slug}/${q.exam_slug}`) ?? [];
+}
