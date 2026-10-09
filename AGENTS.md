@@ -71,6 +71,7 @@ Em caso de conflito, o SPECIFICATION.md manda nas decisões técnicas e este arq
 npm ci                  # dependências
 npm run dev             # http://localhost:4321/plantao/
 npm run snapshot        # atualiza data/snapshot/ a partir do emmoni (seed por padrão)
+npm run fixtures:search # regrava tests/fixtures/search/ (busca do emmoni no banco emmoni_test, só seed)
 npm run gates           # astro check + vitest + build; o mesmo que o CI roda
 npm run preview         # serve o dist/ como o Pages serviria
 ```

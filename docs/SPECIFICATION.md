@@ -60,6 +60,14 @@ busca sem diferença de maiúsculas e acentos. A implementação (índice gerado
 carregado sob demanda) é decisão do agente, registrada em `docs/decisions/`. Ela deve aguentar o
 escopo `all` (≈ 5 mil questões hoje, 100 mil no futuro do emmoni).
 
+Implementação atual (decisão 0006): `src/lib/search/` porta para TypeScript o analisador de texto,
+os dicionários (`unaccent`, `portuguese_stem` Snowball 2.2.0, `simple`) e o `websearch_to_tsquery`
+do PostgreSQL 17, com o mesmo resultado lexema a lexema. O build gera `indice/base.json`
+(filtros, facetas e ordem), `indice/termos/<n>.json` (texto, fatiado por hash do lexema) e
+`indice/blocos/<n>.json` (cartões dos resultados). A ordem dos dicionários e a da lista de questões
+vêm do snapshot, na collation do banco. Casos de paridade em `tests/fixtures/search/`, gravados por
+`npm run fixtures:search` a partir de um banco só com o seed (`emmoni_test`).
+
 Mudou o contrato do emmoni? Atualize a cópia em `docs/contract.md`, a constante
 `CONTRACT_VERSION` do exportador e os tipos em `src/lib/snapshot.ts`.
 
@@ -85,7 +93,7 @@ Renderização do conteúdo: **no build** (HTML estático), com Markdown restrit
 | Rota | Conteúdo |
 |---|---|
 | `/` | Entrada: busca, atalhos por carreira e banca, "continuar de onde parei" |
-| `/questoes/` | Busca com filtros e facetas, estado na URL (`?banca=cebraspe&ano=2021-2024`) |
+| `/questoes/` | Busca com filtros e facetas, estado na URL: `q`, `banca`, `orgao`, `carreira`, `cargo`, `ano` (`2021-2024`, `2021`, `2021-`, `-2024`), `disciplina`, `assunto`, `tipo` (`multipla-escolha`, `certo-errado`, `discursiva`), `anuladas=1`; listas repetem o parâmetro |
 | `/questao/<id>/` | Uma questão: resolver, gabarito, status, fonte oficial |
 | `/provas/` e `/prova/<contest_slug>/<exam_slug>/` | Provas inteiras, na ordem original |
 | `/sobre/` | O que é, de onde vêm os dados, privacidade (progresso só no aparelho) |

@@ -311,83 +311,6 @@
  ],
  "position": [
   {
-   "name": "Oficial Bombeiro Militar",
-   "slug": "oficial",
-   "agency_slug": "cbmal",
-   "question_count": 127,
-   "education_level": "superior"
-  },
-  {
-   "name": "Soldado Bombeiro Militar",
-   "slug": "soldado",
-   "agency_slug": "cbmal",
-   "question_count": 159,
-   "education_level": "medio"
-  },
-  {
-   "name": "Oficial Bombeiro Militar",
-   "slug": "oficial",
-   "agency_slug": "cbmma",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Soldado Bombeiro Militar",
-   "slug": "soldado",
-   "agency_slug": "cbmma",
-   "question_count": 0,
-   "education_level": "medio"
-  },
-  {
-   "name": "Oficial Bombeiro Militar",
-   "slug": "oficial",
-   "agency_slug": "cbmpa",
-   "question_count": 27,
-   "education_level": "superior"
-  },
-  {
-   "name": "Soldado Bombeiro Militar",
-   "slug": "soldado",
-   "agency_slug": "cbmpa",
-   "question_count": 39,
-   "education_level": "medio"
-  },
-  {
-   "name": "Oficial Bombeiro Militar",
-   "slug": "oficial",
-   "agency_slug": "cbmro",
-   "question_count": 72,
-   "education_level": "superior"
-  },
-  {
-   "name": "Soldado Bombeiro Militar",
-   "slug": "soldado",
-   "agency_slug": "cbmro",
-   "question_count": 0,
-   "education_level": "medio"
-  },
-  {
-   "name": "Oficial Bombeiro Militar",
-   "slug": "oficial",
-   "agency_slug": "cbmto",
-   "question_count": 56,
-   "education_level": "superior"
-  },
-  {
-   "name": "Soldado Bombeiro Militar",
-   "slug": "soldado",
-   "agency_slug": "cbmto",
-   "question_count": 71,
-   "education_level": "medio"
-  },
-  {
-   "name": "Agente Federal de Execução Penal",
-   "slug": "agente",
-   "agency_slug": "depen",
-   "question_count": 90,
-   "education_level": "medio"
-  },
-  {
    "name": "Agente de Polícia",
    "slug": "agente",
    "agency_slug": "pcal",
@@ -395,92 +318,8 @@
    "education_level": "superior"
   },
   {
-   "name": "Delegado de Polícia",
-   "slug": "delegado",
-   "agency_slug": "pcal",
-   "question_count": 117,
-   "education_level": "superior"
-  },
-  {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcal",
-   "question_count": 56,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcal",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcal",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcal",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcal",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
    "name": "Agente de Polícia",
    "slug": "agente",
-   "agency_slug": "pcce",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Delegado de Polícia",
-   "slug": "delegado",
-   "agency_slug": "pcce",
-   "question_count": 99,
-   "education_level": "superior"
-  },
-  {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcce",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcce",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcce",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcce",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
    "agency_slug": "pcce",
    "question_count": 0,
    "education_level": "superior"
@@ -493,64 +332,8 @@
    "education_level": "superior"
   },
   {
-   "name": "Delegado de Polícia",
-   "slug": "delegado",
-   "agency_slug": "pcdf",
-   "question_count": 110,
-   "education_level": "superior"
-  },
-  {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcdf",
-   "question_count": 94,
-   "education_level": "superior"
-  },
-  {
    "name": "Agente de Polícia",
    "slug": "agente",
-   "agency_slug": "pces",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Delegado de Polícia",
-   "slug": "delegado",
-   "agency_slug": "pces",
-   "question_count": 74,
-   "education_level": "superior"
-  },
-  {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pces",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pces",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pces",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pces",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
    "agency_slug": "pces",
    "question_count": 0,
    "education_level": "superior"
@@ -563,46 +346,67 @@
    "education_level": "superior"
   },
   {
-   "name": "Delegado de Polícia",
-   "slug": "delegado",
-   "agency_slug": "pcgo",
+   "name": "Agente de Polícia",
+   "slug": "agente",
+   "agency_slug": "pcma",
    "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcgo",
-   "question_count": 20,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcgo",
+   "name": "Agente de Polícia",
+   "slug": "agente",
+   "agency_slug": "pcmg",
    "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcgo",
+   "name": "Agente de Polícia",
+   "slug": "agente",
+   "agency_slug": "pcpb",
+   "question_count": 71,
+   "education_level": "superior"
+  },
+  {
+   "name": "Agente de Polícia",
+   "slug": "agente",
+   "agency_slug": "pcpe",
+   "question_count": 43,
+   "education_level": "superior"
+  },
+  {
+   "name": "Agente de Polícia",
+   "slug": "agente",
+   "agency_slug": "pcrj",
    "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcgo",
-   "question_count": 0,
+   "name": "Agente de Polícia",
+   "slug": "agente",
+   "agency_slug": "pcro",
+   "question_count": 80,
    "education_level": "superior"
   },
   {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcgo",
-   "question_count": 0,
+   "name": "Agente de Polícia",
+   "slug": "agente",
+   "agency_slug": "pcse",
+   "question_count": 79,
    "education_level": "superior"
+  },
+  {
+   "name": "Agente de Polícia Federal",
+   "slug": "agente",
+   "agency_slug": "pf",
+   "question_count": 391,
+   "education_level": "superior"
+  },
+  {
+   "name": "Agente Federal de Execução Penal",
+   "slug": "agente",
+   "agency_slug": "depen",
+   "question_count": 90,
+   "education_level": "medio"
   },
   {
    "name": "Auxiliar de Legista",
@@ -626,30 +430,37 @@
    "education_level": "medio"
   },
   {
-   "name": "Médico Legista",
-   "slug": "medico-legista",
-   "agency_slug": "pcientifica-pe",
-   "question_count": 0,
+   "name": "Delegado de Polícia",
+   "slug": "delegado",
+   "agency_slug": "pcal",
+   "question_count": 117,
    "education_level": "superior"
   },
   {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcientifica-pe",
-   "question_count": 0,
+   "name": "Delegado de Polícia",
+   "slug": "delegado",
+   "agency_slug": "pcce",
+   "question_count": 99,
    "education_level": "superior"
   },
   {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcientifica-pe",
-   "question_count": 0,
+   "name": "Delegado de Polícia",
+   "slug": "delegado",
+   "agency_slug": "pcdf",
+   "question_count": 110,
    "education_level": "superior"
   },
   {
-   "name": "Agente de Polícia",
-   "slug": "agente",
-   "agency_slug": "pcma",
+   "name": "Delegado de Polícia",
+   "slug": "delegado",
+   "agency_slug": "pces",
+   "question_count": 74,
+   "education_level": "superior"
+  },
+  {
+   "name": "Delegado de Polícia",
+   "slug": "delegado",
+   "agency_slug": "pcgo",
    "question_count": 0,
    "education_level": "superior"
   },
@@ -661,94 +472,10 @@
    "education_level": "superior"
   },
   {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcma",
-   "question_count": 57,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcma",
-   "question_count": 52,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcma",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcma",
-   "question_count": 44,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcma",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Agente de Polícia",
-   "slug": "agente",
-   "agency_slug": "pcmg",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
    "name": "Delegado de Polícia",
    "slug": "delegado",
    "agency_slug": "pcmg",
    "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcmg",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcmg",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcmg",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcmg",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcmg",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Agente de Polícia",
-   "slug": "agente",
-   "agency_slug": "pcpb",
-   "question_count": 71,
    "education_level": "superior"
   },
   {
@@ -759,101 +486,10 @@
    "education_level": "superior"
   },
   {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcpb",
-   "question_count": 71,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcpb",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcpb",
-   "question_count": 79,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcpb",
-   "question_count": 244,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcpb",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Agente de Polícia",
-   "slug": "agente",
-   "agency_slug": "pcpe",
-   "question_count": 43,
-   "education_level": "superior"
-  },
-  {
    "name": "Delegado de Polícia",
    "slug": "delegado",
    "agency_slug": "pcpe",
    "question_count": 99,
-   "education_level": "superior"
-  },
-  {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcpe",
-   "question_count": 53,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcpe",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcpe",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcpe",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcpe",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Inspetor de Polícia Civil",
-   "slug": "inspetor",
-   "agency_slug": "pc-rj",
-   "question_count": 13,
-   "education_level": "superior"
-  },
-  {
-   "name": "Agente de Polícia",
-   "slug": "agente",
-   "agency_slug": "pcrj",
-   "question_count": 0,
    "education_level": "superior"
   },
   {
@@ -864,93 +500,9 @@
    "education_level": "superior"
   },
   {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcrj",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcrj",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcrj",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcrj",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcrj",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Agente de Polícia",
-   "slug": "agente",
-   "agency_slug": "pcro",
-   "question_count": 80,
-   "education_level": "superior"
-  },
-  {
    "name": "Delegado de Polícia",
    "slug": "delegado",
    "agency_slug": "pcro",
-   "question_count": 79,
-   "education_level": "superior"
-  },
-  {
-   "name": "Escrivão de Polícia",
-   "slug": "escrivao",
-   "agency_slug": "pcro",
-   "question_count": 77,
-   "education_level": "superior"
-  },
-  {
-   "name": "Investigador de Polícia",
-   "slug": "investigador",
-   "agency_slug": "pcro",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcro",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcro",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
-   "agency_slug": "pcro",
-   "question_count": 0,
-   "education_level": "superior"
-  },
-  {
-   "name": "Agente de Polícia",
-   "slug": "agente",
-   "agency_slug": "pcse",
    "question_count": 79,
    "education_level": "superior"
   },
@@ -962,6 +514,90 @@
    "education_level": "superior"
   },
   {
+   "name": "Delegado de Polícia Federal",
+   "slug": "delegado",
+   "agency_slug": "pf",
+   "question_count": 357,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcal",
+   "question_count": 56,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcce",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcdf",
+   "question_count": 94,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pces",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcgo",
+   "question_count": 20,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcma",
+   "question_count": 57,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcmg",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcpb",
+   "question_count": 71,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcpe",
+   "question_count": 53,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcrj",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Escrivão de Polícia",
+   "slug": "escrivao",
+   "agency_slug": "pcro",
+   "question_count": 77,
+   "education_level": "superior"
+  },
+  {
    "name": "Escrivão de Polícia",
    "slug": "escrivao",
    "agency_slug": "pcse",
@@ -969,29 +605,92 @@
    "education_level": "superior"
   },
   {
+   "name": "Escrivão de Polícia Federal",
+   "slug": "escrivao",
+   "agency_slug": "pf",
+   "question_count": 211,
+   "education_level": "superior"
+  },
+  {
+   "name": "Inspetor de Polícia Civil",
+   "slug": "inspetor",
+   "agency_slug": "pc-rj",
+   "question_count": 13,
+   "education_level": "superior"
+  },
+  {
    "name": "Investigador de Polícia",
    "slug": "investigador",
-   "agency_slug": "pcse",
+   "agency_slug": "pcal",
    "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Papiloscopista",
-   "slug": "papiloscopista",
-   "agency_slug": "pcse",
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcce",
    "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Perito Criminal",
-   "slug": "perito-criminal",
-   "agency_slug": "pcse",
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pces",
    "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Perito Médico-Legista",
-   "slug": "perito-medico-legista",
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcgo",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcma",
+   "question_count": 52,
+   "education_level": "superior"
+  },
+  {
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcmg",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcpb",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcpe",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcrj",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
+   "agency_slug": "pcro",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Investigador de Polícia",
+   "slug": "investigador",
    "agency_slug": "pcse",
    "question_count": 0,
    "education_level": "superior"
@@ -1004,31 +703,45 @@
    "education_level": "superior"
   },
   {
-   "name": "Agente de Polícia Federal",
-   "slug": "agente",
-   "agency_slug": "pf",
-   "question_count": 391,
+   "name": "Médico Legista",
+   "slug": "medico-legista",
+   "agency_slug": "pcientifica-pe",
+   "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Delegado de Polícia Federal",
-   "slug": "delegado",
-   "agency_slug": "pf",
-   "question_count": 357,
+   "name": "Oficial Bombeiro Militar",
+   "slug": "oficial",
+   "agency_slug": "cbmal",
+   "question_count": 127,
    "education_level": "superior"
   },
   {
-   "name": "Escrivão de Polícia Federal",
-   "slug": "escrivao",
-   "agency_slug": "pf",
-   "question_count": 211,
+   "name": "Oficial Bombeiro Militar",
+   "slug": "oficial",
+   "agency_slug": "cbmma",
+   "question_count": 0,
    "education_level": "superior"
   },
   {
-   "name": "Papiloscopista Policial Federal",
-   "slug": "papiloscopista",
-   "agency_slug": "pf",
-   "question_count": 196,
+   "name": "Oficial Bombeiro Militar",
+   "slug": "oficial",
+   "agency_slug": "cbmpa",
+   "question_count": 27,
+   "education_level": "superior"
+  },
+  {
+   "name": "Oficial Bombeiro Militar",
+   "slug": "oficial",
+   "agency_slug": "cbmro",
+   "question_count": 72,
+   "education_level": "superior"
+  },
+  {
+   "name": "Oficial Bombeiro Militar",
+   "slug": "oficial",
+   "agency_slug": "cbmto",
+   "question_count": 56,
    "education_level": "superior"
   },
   {
@@ -1039,25 +752,11 @@
    "education_level": "superior"
   },
   {
-   "name": "Soldado da Polícia Militar",
-   "slug": "soldado",
-   "agency_slug": "pmal",
-   "question_count": 290,
-   "education_level": "medio"
-  },
-  {
    "name": "Oficial da Polícia Militar",
    "slug": "oficial",
    "agency_slug": "pmdf",
    "question_count": 78,
    "education_level": "superior"
-  },
-  {
-   "name": "Soldado da Polícia Militar",
-   "slug": "soldado",
-   "agency_slug": "pmdf",
-   "question_count": 0,
-   "education_level": "medio"
   },
   {
    "name": "Oficial da Polícia Militar",
@@ -1067,25 +766,11 @@
    "education_level": "superior"
   },
   {
-   "name": "Soldado da Polícia Militar",
-   "slug": "soldado",
-   "agency_slug": "pmma",
-   "question_count": 79,
-   "education_level": "medio"
-  },
-  {
    "name": "Oficial da Polícia Militar",
    "slug": "oficial",
    "agency_slug": "pmpa",
    "question_count": 59,
    "education_level": "superior"
-  },
-  {
-   "name": "Soldado da Polícia Militar",
-   "slug": "soldado",
-   "agency_slug": "pmpa",
-   "question_count": 52,
-   "education_level": "medio"
   },
   {
    "name": "Oficial da Polícia Militar",
@@ -1095,13 +780,6 @@
    "education_level": "superior"
   },
   {
-   "name": "Soldado da Polícia Militar",
-   "slug": "soldado",
-   "agency_slug": "pmro",
-   "question_count": 0,
-   "education_level": "medio"
-  },
-  {
    "name": "Oficial da Polícia Militar",
    "slug": "oficial",
    "agency_slug": "pmsc",
@@ -1109,20 +787,6 @@
    "education_level": "superior"
   },
   {
-   "name": "Soldado da Polícia Militar",
-   "slug": "soldado",
-   "agency_slug": "pmsc",
-   "question_count": 50,
-   "education_level": "medio"
-  },
-  {
-   "name": "Soldado PM de 2ª Classe",
-   "slug": "soldado",
-   "agency_slug": "pm-sp",
-   "question_count": 12,
-   "education_level": "medio"
-  },
-  {
    "name": "Oficial da Polícia Militar",
    "slug": "oficial",
    "agency_slug": "pmto",
@@ -1130,11 +794,263 @@
    "education_level": "superior"
   },
   {
-   "name": "Soldado da Polícia Militar",
-   "slug": "soldado",
-   "agency_slug": "pmto",
-   "question_count": 55,
-   "education_level": "medio"
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcal",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcce",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pces",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcgo",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcma",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcmg",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcpb",
+   "question_count": 79,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcpe",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcrj",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcro",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista",
+   "slug": "papiloscopista",
+   "agency_slug": "pcse",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Papiloscopista Policial Federal",
+   "slug": "papiloscopista",
+   "agency_slug": "pf",
+   "question_count": 196,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcal",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcce",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pces",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcgo",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcientifica-pe",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcma",
+   "question_count": 44,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcmg",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcpb",
+   "question_count": 244,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcpe",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcrj",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcro",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Criminal",
+   "slug": "perito-criminal",
+   "agency_slug": "pcse",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcal",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcce",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pces",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcgo",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcientifica-pe",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcma",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcmg",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcpb",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcpe",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcrj",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcro",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Perito Médico-Legista",
+   "slug": "perito-medico-legista",
+   "agency_slug": "pcse",
+   "question_count": 0,
+   "education_level": "superior"
+  },
+  {
+   "name": "Policial Penal",
+   "slug": "policial-penal",
+   "agency_slug": "seapma",
+   "question_count": 0,
+   "education_level": "superior"
   },
   {
    "name": "Policial Rodoviário Federal",
@@ -1144,11 +1060,95 @@
    "education_level": "superior"
   },
   {
-   "name": "Policial Penal",
-   "slug": "policial-penal",
-   "agency_slug": "seapma",
+   "name": "Soldado Bombeiro Militar",
+   "slug": "soldado",
+   "agency_slug": "cbmal",
+   "question_count": 159,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado Bombeiro Militar",
+   "slug": "soldado",
+   "agency_slug": "cbmma",
    "question_count": 0,
-   "education_level": "superior"
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado Bombeiro Militar",
+   "slug": "soldado",
+   "agency_slug": "cbmpa",
+   "question_count": 39,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado Bombeiro Militar",
+   "slug": "soldado",
+   "agency_slug": "cbmro",
+   "question_count": 0,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado Bombeiro Militar",
+   "slug": "soldado",
+   "agency_slug": "cbmto",
+   "question_count": 71,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado da Polícia Militar",
+   "slug": "soldado",
+   "agency_slug": "pmal",
+   "question_count": 290,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado da Polícia Militar",
+   "slug": "soldado",
+   "agency_slug": "pmdf",
+   "question_count": 0,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado da Polícia Militar",
+   "slug": "soldado",
+   "agency_slug": "pmma",
+   "question_count": 79,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado da Polícia Militar",
+   "slug": "soldado",
+   "agency_slug": "pmpa",
+   "question_count": 52,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado da Polícia Militar",
+   "slug": "soldado",
+   "agency_slug": "pmro",
+   "question_count": 0,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado da Polícia Militar",
+   "slug": "soldado",
+   "agency_slug": "pmsc",
+   "question_count": 50,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado da Polícia Militar",
+   "slug": "soldado",
+   "agency_slug": "pmto",
+   "question_count": 55,
+   "education_level": "medio"
+  },
+  {
+   "name": "Soldado PM de 2ª Classe",
+   "slug": "soldado",
+   "agency_slug": "pm-sp",
+   "question_count": 12,
+   "education_level": "medio"
   }
  ],
  "subject": [
