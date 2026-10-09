@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionView from '../../components/QuestionView.astro';
+import { examQuestions, questions, type Question } from '../../lib/snapshot';
+
+export function getStaticPaths() {
+  return questions.map((question) => {
+    const siblings = examQuestions(question);
+    const i = siblings.indexOf(question);
+    return { params: { id: question.id }, props: { question, prev: siblings[i - 1], next: siblings[i + 1] } };
+  });
+}
+
+interface Props {
+  question: Question;
+  prev?: Question;
+  next?: Question;
+}
+
+const { question: q, prev, next } = Astro.props;
+const title = `Questão ${q.number} — ${q.exam_board_short_name} ${q.year}, ${q.agency_short_name} — Plantão`;
+---
+
+<Base title={title} description={`${q.subject_name}: questão ${q.number} da prova ${q.exam_name} (${q.contest_name}).`}>
+  <QuestionView question={q} prev={prev} next={next} />
+</Base>
