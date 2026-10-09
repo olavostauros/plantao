@@ -1,39 +1,43 @@
 ---
-// Página provisória: prova que o pipeline snapshot → build → GitHub Pages funciona.
-// O agente de front-end substitui esta página pelo produto (docs/SPECIFICATION.md §6).
-import '../styles/global.css';
-import { countBy, exams, meta, questions } from '../lib/snapshot';
+// Entrada provisória: lista as provas do snapshot com links para as questões.
+// A entrada de verdade (busca e atalhos) vem nos marcos F2 e F3 (docs/SPECIFICATION.md §6).
+import Base from '../layouts/Base.astro';
+import { examQuestions, exams, meta, questions } from '../lib/snapshot';
 
-const byBoard = countBy(questions, (q) => q.exam_board_short_name);
+const base = import.meta.env.BASE_URL;
+const sorted = [...exams].sort((a, b) => b.year - a.year || a.contest_name.localeCompare(b.contest_name, 'pt-BR'));
 ---
 
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Plantão — questões de concursos policiais</title>
-    <meta
-      name="description"
-      content="Questões de provas oficiais de concursos policiais, por banca, órgão, cargo, ano e assunto."
-    />
-  </head>
-  <body class="m-0 bg-bg font-sans text-lg/relaxed text-fg">
-    <main class="mx-auto max-w-2xl px-4 py-8">
-      <h1 class="text-3xl font-bold">Plantão</h1>
-      <p>Questões de provas oficiais de concursos policiais. Em construção.</p>
-      {meta.scope === 'seed' && (
-        <p class="text-muted">Por enquanto, só questões de exemplo (fictícias).</p>
-      )}
-      <p>
-        <strong>{questions.length}</strong> questões de <strong>{exams.length}</strong> provas.
-      </p>
-      <ul class="list-disc pl-6">
-        {byBoard.map((b) => (
-          <li>{b.value}: {b.count}</li>
-        ))}
-      </ul>
-    </main>
-  </body>
-</html>
-
+<Base
+  title="Plantão — questões de concursos policiais"
+  description="Questões de provas oficiais de concursos policiais, por banca, órgão, cargo, ano e assunto."
+>
+  <h1 class="mt-0 text-3xl font-bold">Plantão</h1>
+  <p>Questões de provas oficiais de concursos policiais. Em construção.</p>
+  {meta.scope === 'seed' && <p class="text-muted">Por enquanto, só questões de exemplo (fictícias).</p>}
+  <p>
+    <strong>{questions.length}</strong> questões de <strong>{exams.length}</strong> provas.
+  </p>
+  {
+    sorted.map((exam) => (
+      <section class="mt-6">
+        <h2 class="mb-2 text-xl font-bold">
+          {exam.contest_name} <span class="block text-base font-normal text-muted">{exam.exam_name}</span>
+        </h2>
+        <ul class="flex flex-wrap gap-2">
+          {examQuestions(exam).map((q) => (
+            <li>
+              <a
+                href={`${base}questao/${q.id}/`}
+                class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border-2 border-line font-semibold text-fg no-underline"
+                aria-label={`Questão ${q.number}`}
+              >
+                {q.number}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</Base>

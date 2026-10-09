@@ -1,10 +1,15 @@
 @import "tailwindcss";
 
-/* Tokens do tema. Use as classes geradas (bg-bg, text-fg, text-muted...), nunca cores soltas. */
+/* Tokens do tema. Use as classes geradas (bg-bg, text-fg, text-muted...), nunca cores soltas.
+   Contraste ≥ 4,5:1 contra o fundo nos dois temas (WCAG 2.2 AA). */
 @theme {
   --color-bg: #fbfaf7;
   --color-fg: #1d1d1b;
   --color-muted: #5c5a55;
+  --color-line: #8a877f;
+  --color-surface: #f1efe8;
+  --color-ok: #1a6b34;
+  --color-bad: #a8261b;
   --font-sans: system-ui, sans-serif;
 }
 
@@ -13,5 +18,94 @@
     --color-bg: #161614;
     --color-fg: #eceae4;
     --color-muted: #a8a59d;
+    --color-line: #75726b;
+    --color-surface: #22221f;
+    --color-ok: #74d08f;
+    --color-bad: #ff8f80;
+  }
+}
+
+/* Conteúdo das questões (renderMarkdown). O preflight do Tailwind zera listas e tabelas, então
+   o Markdown tem estilos próprios aqui. */
+@layer components {
+  .md {
+    overflow-wrap: anywhere;
+  }
+  .md > :first-child {
+    margin-top: 0;
+  }
+  .md > :last-child {
+    margin-bottom: 0;
+  }
+  .md p,
+  .md ul,
+  .md ol,
+  .md .table-wrap,
+  .md .math {
+    margin-block: 0.75em;
+  }
+  .md ul {
+    list-style: disc;
+    padding-left: 1.5em;
+  }
+  .md ol {
+    list-style: decimal;
+    padding-left: 1.5em;
+  }
+  .md u {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  .md code {
+    font-family: ui-monospace, monospace;
+    font-size: 0.9em;
+    background: var(--color-surface);
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+  }
+  .md img {
+    max-width: 100%;
+    height: auto;
+    background: #fff; /* imagens de prova são feitas para papel branco */
+    border-radius: 4px;
+  }
+  .md .table-wrap {
+    overflow-x: auto;
+  }
+  .md .table-wrap:focus-visible {
+    outline: 3px solid var(--color-fg);
+    outline-offset: 2px;
+  }
+  .md table {
+    border-collapse: collapse;
+  }
+  .md th,
+  .md td {
+    border: 1px solid var(--color-line);
+    padding: 0.35em 0.75em;
+    text-align: left;
+  }
+  .md th {
+    background: var(--color-surface);
+  }
+  .md .math {
+    overflow-x: auto;
+  }
+  .md .img-missing {
+    font-style: italic;
+    color: var(--color-muted);
+  }
+
+  .choice[data-state="ok"] label {
+    border-color: var(--color-ok);
+    border-width: 3px;
+  }
+  .choice[data-state="bad"] label {
+    border-color: var(--color-bad);
+    border-width: 3px;
+  }
+  .choice label:has(input:focus-visible) {
+    outline: 3px solid var(--color-fg);
+    outline-offset: 2px;
   }
 }
