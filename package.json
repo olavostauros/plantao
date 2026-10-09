@@ -14,7 +14,8 @@
     "check": "astro check",
     "test": "vitest run",
     "gates": "npm run check && npm test && npm run build",
-    "snapshot": "node scripts/export-snapshot.mjs"
+    "snapshot": "node scripts/export-snapshot.mjs",
+    "fixtures:search": "node scripts/record-search-fixtures.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "4.1.3",

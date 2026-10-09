@@ -18,6 +18,13 @@ const sorted = [...exams].sort((a, b) => b.year - a.year || a.contest_name.local
   <p>
     <strong>{questions.length}</strong> questões de <strong>{exams.length}</strong> provas.
   </p>
+  <p>
+    <a
+      href={`${base}questoes/`}
+      class="inline-flex min-h-11 items-center rounded-lg border-2 border-fg bg-fg px-4 font-semibold text-bg no-underline"
+      >Buscar questões por texto, banca, órgão, ano e assunto</a
+    >
+  </p>
   {
     sorted.map((exam) => (
       <section class="mt-6">

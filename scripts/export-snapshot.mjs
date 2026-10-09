@@ -56,10 +56,12 @@ const exams = (
 
 // O catálogo é real e pequeno; vai inteiro. `question_count` do banco conta o banco todo,
 // então o site deve contar pelo snapshot (src/lib/snapshot.ts), não por esse campo.
+// A ordem das listas vem da collation do banco e é a que `api.facet_counts` usa para desempatar
+// (slug, path; cargos por slug e depois nome): a busca do site depende dela (decisão 0006).
 const catalog = {
   exam_board: await rows(`select to_jsonb(x) as j from api.exam_board x order by slug`),
   agency: await rows(`select to_jsonb(x) as j from api.agency x order by slug`),
-  position: await rows(`select to_jsonb(x) as j from api.position x order by agency_slug, slug`),
+  position: await rows(`select to_jsonb(x) as j from api.position x order by slug, name, agency_slug`),
   subject: await rows(`select to_jsonb(x) as j from api.subject x order by slug`),
   topic: await rows(`select to_jsonb(x) as j from api.topic x order by path`),
   exam: exams,

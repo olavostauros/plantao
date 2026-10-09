@@ -1,0 +1,201 @@
+{
+ "meta": {
+  "recorded_at": "2026-10-09T21:14:39.104Z",
+  "postgres": "17.11 (Debian 17.11-1.pgdg13+2)",
+  "database": "emmoni_test"
+ },
+ "queries": [
+  {
+   "query": "inquérito",
+   "tsquery": "'inquerit'"
+  },
+  {
+   "query": "Inquéritos policiais",
+   "tsquery": "'inquerit' & 'polic'"
+  },
+  {
+   "query": "\"prisão em flagrante\"",
+   "tsquery": "'prisa' <2> 'flagrant'"
+  },
+  {
+   "query": "\"julgue os itens a seguir\"",
+   "tsquery": "'julg' <2> 'itens' <2> 'segu'"
+  },
+  {
+   "query": "roubo -furto",
+   "tsquery": "'roub' & !'furt'"
+  },
+  {
+   "query": "roubo or furto",
+   "tsquery": "'roub' | 'furt'"
+  },
+  {
+   "query": "roubo OR furto -arma",
+   "tsquery": "'roub' | 'furt' & !'arma'"
+  },
+  {
+   "query": "or furto",
+   "tsquery": "'or' & 'furt'"
+  },
+  {
+   "query": "furto or",
+   "tsquery": "'furt' & 'or'"
+  },
+  {
+   "query": "furto or or roubo",
+   "tsquery": "'furt' | 'or' & 'roub'"
+  },
+  {
+   "query": "furto orçamento",
+   "tsquery": "'furt' & 'orcament'"
+  },
+  {
+   "query": "furto or-roubo",
+   "tsquery": "'furt' & 'or-roub' <-> 'or' <-> 'roub'"
+  },
+  {
+   "query": "de",
+   "tsquery": ""
+  },
+  {
+   "query": "a de o",
+   "tsquery": ""
+  },
+  {
+   "query": "",
+   "tsquery": ""
+  },
+  {
+   "query": "   ",
+   "tsquery": ""
+  },
+  {
+   "query": "-",
+   "tsquery": ""
+  },
+  {
+   "query": "--roubo",
+   "tsquery": "!!'roub'"
+  },
+  {
+   "query": "\"\"",
+   "tsquery": ""
+  },
+  {
+   "query": "\"roubo",
+   "tsquery": "'roub'"
+  },
+  {
+   "query": "roubo\"furto\"",
+   "tsquery": "'roub' & 'furt'"
+  },
+  {
+   "query": "-\"prisão em flagrante\"",
+   "tsquery": "!( 'prisa' <2> 'flagrant' )"
+  },
+  {
+   "query": "a & b | !c",
+   "tsquery": "'b' & 'c'"
+  },
+  {
+   "query": "(roubo) <-> furto",
+   "tsquery": "'roub' & 'furt'"
+  },
+  {
+   "query": "lei:8112",
+   "tsquery": "'lei' & '8112'"
+  },
+  {
+   "query": "guarda-municipal",
+   "tsquery": "'guarda-municipal' <-> 'guard' <-> 'municipal'"
+  },
+  {
+   "query": "dois-pontos",
+   "tsquery": "'dois-pont' <-> 'dois' <-> 'pont'"
+  },
+  {
+   "query": "norma-padrão",
+   "tsquery": "'norma-padra' <-> 'norm' <-> 'padra'"
+  },
+  {
+   "query": "pré-requisito pós-graduação",
+   "tsquery": "'pre-requisit' <-> 'pre' <-> 'requisit' & 'pos-graduaca' <-> 'pos' <-> 'graduaca'"
+  },
+  {
+   "query": "auto-de-infração",
+   "tsquery": "'auto-de-infraca' <-> 'aut' <2> 'infraca'"
+  },
+  {
+   "query": "8.112/1990",
+   "tsquery": "'8.112' <-> '/1990'"
+  },
+  {
+   "query": "art. 5º",
+   "tsquery": "'art' & '5º'"
+  },
+  {
+   "query": "Nº 123, 2ª e 1º",
+   "tsquery": "'nº' & '123' & '2ª' & '1º'"
+  },
+  {
+   "query": "R$ 240,00",
+   "tsquery": "'r' & '240' <-> '00'"
+  },
+  {
+   "query": "50% 3,14 1.2.3",
+   "tsquery": "'50' & '3' <-> '14' & '1.2.3'"
+  },
+  {
+   "query": "www.gov.br",
+   "tsquery": "'www.gov.br'"
+  },
+  {
+   "query": "https://www.gov.br/pf",
+   "tsquery": "'https' & '/www.gov.br/pf'"
+  },
+  {
+   "query": "fulano@pf.gov.br",
+   "tsquery": "'fulano@pf.gov.br'"
+  },
+  {
+   "query": "c++",
+   "tsquery": "'c'"
+  },
+  {
+   "query": "ÁÉÍÓÚ àèìòù ç",
+   "tsquery": "'aeiou' & 'aeiou' & 'c'"
+  },
+  {
+   "query": "não é",
+   "tsquery": "'nao'"
+  },
+  {
+   "query": "MUNICÍPIOS",
+   "tsquery": "'municipi'"
+  },
+  {
+   "query": "<u>sublinhado</u>",
+   "tsquery": "'u' <-> 'sublinh' & '/u'"
+  },
+  {
+   "query": "constituição federal -emenda",
+   "tsquery": "'constituica' & 'federal' & !'emend'"
+  },
+  {
+   "query": "\"constituição federal\" or \"código penal\"",
+   "tsquery": "'constituica' <-> 'federal' | 'codig' <-> 'penal'"
+  },
+  {
+   "query": "tráfico de drogas or \"associação criminosa\" -\"menor de idade\"",
+   "tsquery": "'trafic' & 'drog' | 'associaca' <-> 'crimin' & !( 'menor' <2> 'idad' )"
+  },
+  {
+   "query": "d'água",
+   "tsquery": "'d' <-> 'agu'"
+  },
+  {
+   "query": "segurança\tpública",
+   "tsquery": "'seguranc' & 'public'"
+  }
+ ]
+}

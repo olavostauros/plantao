@@ -67,6 +67,50 @@ export interface Exam {
   source_url: string | null;
 }
 
+export interface CatalogExamBoard {
+  slug: string;
+  name: string;
+  short_name: string;
+}
+
+export interface CatalogAgency {
+  slug: string;
+  name: string;
+  short_name: string;
+  career: string;
+  government_level: string;
+  state: string | null;
+}
+
+export interface CatalogPosition {
+  agency_slug: string;
+  slug: string;
+  name: string;
+}
+
+export interface CatalogSubject {
+  slug: string;
+  name: string;
+}
+
+export interface CatalogTopic {
+  path: string;
+  name: string;
+  subject_slug: string;
+  depth: number;
+  parent_path: string | null;
+}
+
+/** Views de catálogo (seção 5 do contrato), na ordem da collation do banco (ver o exportador). */
+export interface Catalog {
+  exam_board: CatalogExamBoard[];
+  agency: CatalogAgency[];
+  position: CatalogPosition[];
+  subject: CatalogSubject[];
+  topic: CatalogTopic[];
+  exam: Exam[];
+}
+
 export interface SnapshotMeta {
   contract_version: string;
   scope: 'seed' | 'all';
@@ -77,7 +121,8 @@ export interface SnapshotMeta {
 }
 
 export const questions = questionsJson as unknown as Question[];
-export const exams = (catalogJson as unknown as { exam: Exam[] }).exam;
+export const catalog = catalogJson as unknown as Catalog;
+export const exams = catalog.exam;
 export const meta = metaJson as SnapshotMeta;
 
 /** URL de uma imagem do contrato (`/assets/<sha>.<ext>`) sob o `base` do site. */
