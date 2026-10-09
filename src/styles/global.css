@@ -84,6 +84,9 @@
     border: 1px solid var(--color-line);
     padding: 0.35em 0.75em;
     text-align: left;
+    /* "anywhere" deixaria a célula encolher até uma letra; com "break-word" a palavra inteira é
+       a largura mínima e a tabela larga rola dentro do .table-wrap. */
+    overflow-wrap: break-word;
   }
   .md th {
     background: var(--color-surface);
