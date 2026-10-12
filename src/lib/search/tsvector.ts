@@ -1,4 +1,4 @@
-// `to_tsvector('ext.pt_unaccent', ...)` e o vetor de busca de uma questão, como o origem monta
+// `to_tsvector('ext.pt_unaccent', ...)` e o vetor de busca de uma questão, como o banco de questões monta
 // (migração 20261007100400_search.sql): enunciado || alternativas || texto-base, cada parte
 // passada antes por `md_plain`. Decisão 0006.
 
@@ -123,7 +123,7 @@ export function concat(a: TsVector, b: TsVector): TsVector {
   return out;
 }
 
-/** `md_plain` do origem: Markdown restrito → texto para indexar. */
+/** `md_plain` do banco de questões: Markdown restrito → texto para indexar. */
 export function mdPlain(md: string): string {
   return md
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')

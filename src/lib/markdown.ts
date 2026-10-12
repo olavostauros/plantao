@@ -15,7 +15,7 @@ export interface RenderOptions {
   /** `import.meta.env.BASE_URL`; prefixa as URLs das imagens. */
   base?: string;
   /**
-   * Fórmula inline com `$...$`. Desligada até o origem confirmar a content-format v1.1
+   * Fórmula inline com `$...$`. Desligada até o banco de questões confirmar a content-format v1.1
    * (`\$` = `$` literal): os dados reais têm centenas de `R$` e nenhuma fórmula.
    */
   inlineMath?: boolean;

@@ -1,6 +1,6 @@
 # Contrato com o front-end
 
-> **Cópia** do `docs/contract.md` do repositório origem (privado), onde está a versão que vale.
+> **Cópia** do `docs/contract.md` do repositório do banco de questões (privado), onde está a versão que vale.
 > No Plantão o site não consulta o banco: lê o snapshot gravado por `npm run snapshot` em
 > `data/snapshot/`, com as linhas das views do esquema `api` descritas aqui. Filtros, facetas e
 > busca textual (seções 2 e 3) são reimplementados no navegador sobre o snapshot, com a mesma
@@ -8,7 +8,7 @@
 
 **Versão 1.2** · 2026-10-08
 
-Este documento é tudo o que o agente de front-end precisa para trabalhar com o banco do origem.
+Este documento é tudo o que o agente de front-end precisa para trabalhar com o banco de questões.
 Ele descreve o esquema `api` do PostgreSQL: o que existe, o formato de cada resposta e como os
 filtros funcionam. Tabelas fora de `api` podem mudar a qualquer momento e não são acessíveis.
 
@@ -20,11 +20,11 @@ make db-up migrate seed     # Postgres local + esquema + 65 questões de exemplo
 
 | | |
 |---|---|
-| Conexão | `postgres://origem_web:origem_web@localhost:55432/origem?sslmode=disable` |
-| Papel | `origem_web`: só leitura, só o esquema `api` |
+| Conexão | `SOURCE_DATABASE_URL`, fornecida pelo dono do banco (sem padrão no código) |
+| Papel | só leitura, só o esquema `api` |
 | Imagens | `make seed` copia as imagens para `data/assets/<sha256>.<ext>`. Sirva essa pasta em `/assets/`. |
 
-Os dados do seed são fictícios: concursos com slug `seed-*`, documentos em `seed.origem.invalid`.
+Os dados do seed são fictícios: concursos com slug `seed-*`, documentos em `seed.plantao.invalid`.
 Bancas, órgãos, cargos, disciplinas e assuntos são o catálogo real.
 
 ## 2. Funções

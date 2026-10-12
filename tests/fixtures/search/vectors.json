@@ -2,7 +2,7 @@
  "meta": {
   "recorded_at": "2026-10-09T21:14:39.104Z",
   "postgres": "17.11 (Debian 17.11-1.pgdg13+2)",
-  "database": "origem_test"
+  "scope": "seed"
  },
  "vectors": {
   "0142575a-0fd5-500c-b7a1-6bba87d16dc7": "'aca':33B,37B 'ampar':12A 'autor':25A 'cabivel':4A 'cert':10A 'civil':38B 'constitucional':3A 'corpus':15A,36B 'dat':18A 'direit':7A 'hab':14A,17A,35B 'ilegal':23A 'injunca':29B 'liqu':8A 'mand':27B,30B 'nao':11A 'popul':34B 'proteg':6A 'public':26A,39B 'remedi':2A 'responsavel':21A 'seguranc':32B",

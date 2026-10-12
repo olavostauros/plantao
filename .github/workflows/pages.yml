@@ -25,6 +25,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run gates
+        env:
+          # Lista do scripts/check-private-words.mjs; sem o secret, a checagem é pulada.
+          PRIVATE_WORDS: ${{ secrets.PRIVATE_WORDS }}
       - if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:

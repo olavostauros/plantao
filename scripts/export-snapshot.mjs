@@ -1,16 +1,16 @@
 #!/usr/bin/env node
-// Exporta um snapshot do esquema `api` do origem para data/snapshot/ e as imagens para public/assets/.
+// Exporta um snapshot do esquema `api` do banco de questões para data/snapshot/ e as imagens para public/assets/.
 // O site é estático (GitHub Pages): tudo o que ele mostra vem deste snapshot, gerado na máquina
-// que tem acesso ao Postgres do origem. Ver docs/SPECIFICATION.md §3.
+// que tem acesso ao Postgres do banco de questões. Ver docs/SPECIFICATION.md §3.
 //
 // Uso:
 //   npm run snapshot                       # só o seed (questões fictícias, contest_slug seed-*)
 //   npm run snapshot -- --scope all        # todas as questões publicadas (exige decisão do dono)
 //
 // Variáveis:
-//   ORIGEM_DATABASE_URL  conexão com o papel origem_web (padrão: a do contrato, docker local)
-//   ORIGEM_ASSETS_DIR    pasta com as imagens geradas pelo `make seed` / ingestão do origem
-//                        (padrão: ../origem/data/assets)
+//   SOURCE_DATABASE_URL  conexão com o papel só leitura do esquema `api` (obrigatória)
+//   SOURCE_ASSETS_DIR    pasta com as imagens da base de origem (obrigatória)
+// Nenhuma das duas tem padrão: sem elas o script para antes de conectar.
 
 import { copyFile, mkdir, readdir, rm, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -22,10 +22,13 @@ const ROOT = resolve(import.meta.dirname, '..');
 const OUT = join(ROOT, 'data', 'snapshot');
 const ASSETS_OUT = join(ROOT, 'public', 'assets');
 
-const DATABASE_URL =
-  process.env.ORIGEM_DATABASE_URL ??
-  'postgres://origem_web:origem_web@localhost:55432/origem?sslmode=disable';
-const ASSETS_DIR = resolve(process.env.ORIGEM_ASSETS_DIR ?? join(ROOT, '..', 'origem', 'data', 'assets'));
+const DATABASE_URL = process.env.SOURCE_DATABASE_URL;
+const ASSETS_DIR = process.env.SOURCE_ASSETS_DIR && resolve(process.env.SOURCE_ASSETS_DIR);
+const unset = [!DATABASE_URL && 'SOURCE_DATABASE_URL', !ASSETS_DIR && 'SOURCE_ASSETS_DIR'].filter(Boolean);
+if (unset.length) {
+  console.error(`defina ${unset.join(' e ')} (ver o cabeçalho deste script e docs/SPECIFICATION.md §3)`);
+  process.exit(2);
+}
 
 const scopeArg = process.argv.indexOf('--scope');
 const scope = scopeArg >= 0 ? process.argv[scopeArg + 1] : 'seed';
@@ -39,9 +42,17 @@ const where = scope === 'seed' ? `contest_slug like 'seed-%'` : `contest_slug no
 const client = new pg.Client({ connectionString: DATABASE_URL });
 await client.connect();
 
+// Os documentos fictícios do seed apontam para um host `.invalid` da base de origem; no snapshot
+// público eles vão para um host neutro, também inválido de propósito. URLs reais não mudam.
+const SEED_HOST = /^https:\/\/seed\.[^/]+\.invalid\//;
+const neutralSeedUrl = (j) =>
+  typeof j.source_url === 'string' && SEED_HOST.test(j.source_url)
+    ? { ...j, source_url: j.source_url.replace(SEED_HOST, 'https://seed.plantao.invalid/') }
+    : j;
+
 async function rows(sql) {
   const { rows } = await client.query(sql);
-  return rows.map((r) => r.j);
+  return rows.map((r) => neutralSeedUrl(r.j));
 }
 
 const questions = await rows(`

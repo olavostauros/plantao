@@ -7,7 +7,7 @@
 F1 precisa renderizar no build o formato do `content-format.md` (v1.0) e deixar o usuário
 responder sem recarregar a página, dentro de 30 KB gzip de JS e 20 KB de CSS. Os dados reais têm
 ≈ 190 `R$`/`US$` e nenhuma fórmula; a v1.1 do formato (`\$` = `$` literal) ainda não foi
-confirmada pelo origem.
+confirmada pelo banco de questões.
 
 ## Decisão
 

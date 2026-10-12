@@ -13,7 +13,7 @@ src/lib/                lógica sem interface: snapshot, filtros, busca, renderi
 src/components/         componentes .astro; design system em src/components/ui/ (TSX/Preact,
                         HTML no build, ilhas de JS só quando necessário)
 src/styles/global.css   Tailwind: `@import "tailwindcss"` e tokens de tema (`@theme`)
-data/snapshot/          snapshot do esquema api do origem (gerado; versionado no git)
+data/snapshot/          snapshot do esquema api do banco de questões (gerado; versionado no git)
 public/assets/          imagens das questões (geradas pelo snapshot)
 scripts/                export-snapshot.mjs
 tests/                  Vitest
@@ -38,11 +38,11 @@ roda no navegador conta no orçamento de peso (§4).
 
 ## 3. Dados
 
-O GitHub Pages só serve arquivos estáticos e não alcança o Postgres do origem. Por isso
+O GitHub Pages só serve arquivos estáticos e não alcança o Postgres do banco de questões. Por isso
 (decisão 0001):
 
-1. `npm run snapshot` roda **numa máquina com acesso ao banco do origem** (papel `origem_web`,
-   só leitura, esquema `api`) e grava `data/snapshot/{questions,catalog,meta}.json` e
+1. `npm run snapshot` roda **numa máquina com acesso ao banco de questões** (papel só leitura,
+   esquema `api`) e grava `data/snapshot/{questions,catalog,meta}.json` e
    `public/assets/`.
 2. O snapshot é **versionado no git**. O build (local e CI) só lê esses arquivos.
 3. `--scope seed` (padrão) exporta só as 65 questões fictícias do seed; `--scope all` exporta as
@@ -58,7 +58,7 @@ snapshot.
 listas = OU, chaves = E, facetas disjuntivas, `topic` inclui subassuntos, anuladas fora por padrão,
 busca sem diferença de maiúsculas e acentos. A implementação (índice gerado no build, fatiado e
 carregado sob demanda) é decisão do agente, registrada em `docs/decisions/`. Ela deve aguentar o
-escopo `all` (≈ 5 mil questões hoje, 100 mil no futuro do origem).
+escopo `all` (≈ 5 mil questões hoje, 100 mil no futuro do banco de questões).
 
 Implementação atual (decisão 0006): `src/lib/search/` porta para TypeScript o analisador de texto,
 os dicionários (`unaccent`, `portuguese_stem` Snowball 2.2.0, `simple`) e o `websearch_to_tsquery`
@@ -66,9 +66,9 @@ do PostgreSQL 17, com o mesmo resultado lexema a lexema. O build gera `indice/ba
 (filtros, facetas e ordem), `indice/termos/<n>.json` (texto, fatiado por hash do lexema) e
 `indice/blocos/<n>.json` (cartões dos resultados). A ordem dos dicionários e a da lista de questões
 vêm do snapshot, na collation do banco. Casos de paridade em `tests/fixtures/search/`, gravados por
-`npm run fixtures:search` a partir de um banco só com o seed (`origem_test`).
+`npm run fixtures:search` a partir de um banco só com o seed (banco de testes).
 
-Mudou o contrato do origem? Atualize a cópia em `docs/contract.md`, a constante
+Mudou o contrato do banco de questões? Atualize a cópia em `docs/contract.md`, a constante
 `CONTRACT_VERSION` do exportador e os tipos em `src/lib/snapshot.ts`.
 
 ## 4. Qualidade (orçamentos)
@@ -109,7 +109,7 @@ Siga em ordem; cada marco termina com `npm run gates` verde e o site no ar.
 |---|---|---|
 | **F0 — Fundação** | Astro, snapshot do seed, workflow do Pages, docs | Site no ar com a contagem do seed. **Feito no setup.** |
 | **F1 — A questão** | `/questao/<id>/` para as 65 do seed: renderização completa do formato, responder (A–E, C/E), gabarito, anulada/alterada, fonte | Todas as questões do seed renderizam sem JS; testes do renderizador cobrem cada elemento do `content-format.md`. |
-| **F2 — Busca e filtros** | `/questoes/` com filtros, facetas disjuntivas, busca textual, "carregar mais", estado na URL | Resultados e contagens batem com `api.search_questions`/`api.facet_counts` do origem para um conjunto de casos gravados em `tests/fixtures/`. |
+| **F2 — Busca e filtros** | `/questoes/` com filtros, facetas disjuntivas, busca textual, "carregar mais", estado na URL | Resultados e contagens batem com `api.search_questions`/`api.facet_counts` do banco de questões para um conjunto de casos gravados em `tests/fixtures/`. |
 | **F3 — Provas e navegação** | `/provas/`, `/prova/...`, `/` com atalhos | Toda prova do snapshot navegável na ordem original. |
 | **F4 — Estudo** | Progresso no aparelho, "10 questões agora", continuar de onde parou, desempenho por disciplina | Funciona offline depois da primeira visita (service worker) e sobrevive a recarregar. |
 | **F5 — Dados reais** | Snapshot `--scope all` aprovado pelo dono, índice fatiado, orçamentos medidos | Orçamentos do §4 atendidos com o escopo `all`. |

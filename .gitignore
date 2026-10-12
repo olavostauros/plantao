@@ -4,3 +4,5 @@ dist/
 .env
 .env.*
 .DS_Store
+# Palavras privadas para scripts/check-private-words.mjs. Nunca versionar.
+.private-words

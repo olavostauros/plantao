@@ -13,9 +13,10 @@
     "preview": "astro preview",
     "check": "astro check",
     "test": "vitest run",
-    "gates": "npm run check && npm test && npm run build",
+    "gates": "npm run check && npm test && npm run build && npm run check:private",
     "snapshot": "node scripts/export-snapshot.mjs",
-    "fixtures:search": "node scripts/record-search-fixtures.mjs"
+    "fixtures:search": "node scripts/record-search-fixtures.mjs",
+    "check:private": "node scripts/check-private-words.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "4.1.3",

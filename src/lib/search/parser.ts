@@ -1,5 +1,5 @@
 // Porte do analisador padrão de busca textual do PostgreSQL 17 (src/backend/tsearch/wparser_def.c),
-// o `pg_catalog.default` usado pela configuração `ext.pt_unaccent` do origem. É uma máquina de
+// o `pg_catalog.default` usado pela configuração `ext.pt_unaccent` do banco de questões. É uma máquina de
 // estados em tabelas; as tabelas abaixo seguem as do C, na mesma ordem, para que a comparação
 // linha a linha seja simples. Decisão 0006.
 //

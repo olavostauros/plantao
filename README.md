@@ -9,8 +9,8 @@ exemplo).
 
 ## Como funciona
 
-O site é estático (Astro, TypeScript e Tailwind CSS, publicado no GitHub Pages). As questões vêm de um snapshot do banco do
-projeto origem, extraído dos PDFs oficiais das bancas, com gabarito definitivo e a fonte de cada
+O site é estático (Astro, TypeScript e Tailwind CSS, publicado no GitHub Pages). As questões vêm de um snapshot do banco de questões
+privado, extraído dos PDFs oficiais das bancas, com gabarito definitivo e a fonte de cada
 questão. Ver [`docs/SPECIFICATION.md`](docs/SPECIFICATION.md) e a
 [decisão 0001](docs/decisions/0001-site-estatico-com-snapshot.md).
 

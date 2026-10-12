@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 // Gera src/lib/search/pg-data.ts com os dados de busca textual do PostgreSQL 17 que a busca do
-// navegador precisa para reproduzir `ext.pt_unaccent` do origem (decisão 0006):
+// navegador precisa para reproduzir `ext.pt_unaccent` do banco de questões (decisão 0006):
 //   - as stopwords do dicionário `portuguese_stem` (tsearch_data/portuguese.stop);
 //   - as regras do `unaccent` (tsearch_data/unaccent.rules) para caracteres que podem fazer parte
 //     de uma palavra (letras e marcas); o `unaccent` só recebe tokens de palavra.
 //
-// Uso (com o container do origem de pé):
-//   node scripts/gen-pg-tsearch-data.mjs
+// Uso (com o container do Postgres da base de origem de pé):
+//   SOURCE_DB_CONTAINER=<nome> node scripts/gen-pg-tsearch-data.mjs
 // ou com os arquivos já copiados:
 //   node scripts/gen-pg-tsearch-data.mjs <portuguese.stop> <unaccent.rules>
 
@@ -15,11 +15,17 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const CONTAINER = process.env.ORIGEM_DB_CONTAINER ?? 'origem-db-1';
+const CONTAINER = process.env.SOURCE_DB_CONTAINER;
 const DIR = '/usr/share/postgresql/17/tsearch_data';
 
-const read = (arg, name) =>
-  arg ? readFileSync(arg, 'utf8') : execFileSync('docker', ['exec', CONTAINER, 'cat', `${DIR}/${name}`], { encoding: 'utf8' });
+const read = (arg, name) => {
+  if (arg) return readFileSync(arg, 'utf8');
+  if (!CONTAINER) {
+    console.error('defina SOURCE_DB_CONTAINER ou passe os dois arquivos (ver o cabeçalho deste script)');
+    process.exit(2);
+  }
+  return execFileSync('docker', ['exec', CONTAINER, 'cat', `${DIR}/${name}`], { encoding: 'utf8' });
+};
 
 const stop = read(process.argv[2], 'portuguese.stop')
   .split('\n')

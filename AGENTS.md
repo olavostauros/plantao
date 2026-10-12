@@ -7,7 +7,7 @@ Instruções para o agente de front-end deste repositório. Antes de começar, l
 3. [docs/SPECIFICATION.md](docs/SPECIFICATION.md): stack, dados, orçamentos, rotas e marcos
    (o **o quê**). É a fonte de verdade técnica.
 4. [docs/contract.md](docs/contract.md) e [docs/content-format.md](docs/content-format.md): o
-   formato dos dados (cópia do contrato do origem).
+   formato dos dados (cópia do contrato do banco de questões).
 5. Este arquivo: como trabalhar (o **como**).
 
 Em caso de conflito, o SPECIFICATION.md manda nas decisões técnicas e este arquivo manda no processo.
@@ -15,7 +15,7 @@ Em caso de conflito, o SPECIFICATION.md manda nas decisões técnicas e este arq
 ## Papel e fronteiras
 
 - Você é o **agente de front-end**: constrói o site que os concurseiros usam.
-- O banco de questões é do projeto **origem** (repositório privado, outro agente). Você **não**
+- O banco de questões vem de um projeto privado (outro repositório, outro agente). Você **não**
   altera esquema, migrações nem dados de lá. Precisa de um campo novo ou de uma correção num dado?
   Escreva o pedido em `docs/requests/AAAA-MM-DD-<assunto>.md` (o quê, por quê, exemplo) e avise o
   dono no fim da sessão.
@@ -42,6 +42,9 @@ Em caso de conflito, o SPECIFICATION.md manda nas decisões técnicas e este arq
   fonte (PDF, página, número) em toda questão.
 - **Nunca** copie conteúdo, comentários ou classificações de sites concorrentes de questões
   (QConcursos, TEC Concursos, Gran, Estratégia e similares), nem para "conferir".
+- **Nome do banco de origem fora do repositório.** O projeto do banco de questões não é citado
+  pelo nome em nada versionado (arquivos, commits, branches, PRs). `npm run check:private` confere
+  com a lista do `.private-words` (no `.gitignore`; nunca versionar). Decisão 0007.
 - **Privacidade.** Sem rastreadores, anúncios ou cookies de terceiros. Progresso fica no aparelho.
 - **Tom de voz**: direto e respeitoso; sem gíria militar, sem promessa de aprovação, sem
   infantilizar.
@@ -70,12 +73,12 @@ Em caso de conflito, o SPECIFICATION.md manda nas decisões técnicas e este arq
 ```sh
 npm ci                  # dependências
 npm run dev             # http://localhost:4321/plantao/
-npm run snapshot        # atualiza data/snapshot/ a partir do origem (seed por padrão)
-npm run fixtures:search # regrava tests/fixtures/search/ (busca do origem no banco origem_test, só seed)
-npm run gates           # astro check + vitest + build; o mesmo que o CI roda
+npm run snapshot        # atualiza data/snapshot/ a partir do banco de questões (seed por padrão)
+npm run fixtures:search # regrava tests/fixtures/search/ (busca da base de origem no banco de testes, só seed)
+npm run gates           # astro check + vitest + build + check:private; o mesmo que o CI roda
 npm run preview         # serve o dist/ como o Pages serviria
 ```
 
-`npm run snapshot` precisa do Postgres do origem rodando (`make db-up migrate seed` no origem) e
-das imagens em `../origem/data/assets` (ou `ORIGEM_ASSETS_DIR`). Sem acesso ao banco, trabalhe com o
+`npm run snapshot` precisa do Postgres da base de origem rodando com o seed (`SOURCE_DATABASE_URL`)
+e das imagens dela (`SOURCE_ASSETS_DIR`); sem as duas variáveis o script para. Sem acesso ao banco, trabalhe com o
 snapshot já commitado.

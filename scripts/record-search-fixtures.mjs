@@ -1,16 +1,16 @@
 #!/usr/bin/env node
-// Grava em tests/fixtures/search/ os casos que conferem a busca do navegador com o origem
+// Grava em tests/fixtures/search/ os casos que conferem a busca do navegador com o banco de questões
 // (marco F2, SPECIFICATION.md §6): o que `api.search_questions` e `api.facet_counts` devolvem,
 // o `websearch_to_tsquery` de várias consultas e o vetor de busca de cada questão.
 //
-// Só lê o banco (papel origem_web) e só aceita um banco com as questões do seed: o padrão é o
-// `origem_test` do origem (`make test-db` + seed). As fixtures valem para o snapshot commitado em
+// Só lê o banco (papel só leitura) e só aceita um banco com as questões do seed: por exemplo o
+// banco de testes da base de origem. As fixtures valem para o snapshot commitado em
 // data/snapshot/: o script confere que as questões são as mesmas.
 //
 // Uso:
 //   npm run fixtures:search
 // Variável:
-//   ORIGEM_FIXTURES_DATABASE_URL  (padrão: origem_web no origem_test, docker local)
+//   SOURCE_FIXTURES_DATABASE_URL  conexão só leitura com um banco só com o seed (obrigatória)
 
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
@@ -18,9 +18,11 @@ import pg from 'pg';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const OUT = join(ROOT, 'tests', 'fixtures', 'search');
-const DATABASE_URL =
-  process.env.ORIGEM_FIXTURES_DATABASE_URL ??
-  'postgres://origem_web:origem_web@localhost:55432/origem_test?sslmode=disable';
+const DATABASE_URL = process.env.SOURCE_FIXTURES_DATABASE_URL;
+if (!DATABASE_URL) {
+  console.error('defina SOURCE_FIXTURES_DATABASE_URL (ver o cabeçalho deste script)');
+  process.exit(2);
+}
 
 // Casos de filtros + texto. Cobrem: listas = OU, chaves = E, facetas disjuntivas, assunto com
 // subassuntos, anuladas fora por padrão, ano aberto, lista vazia, busca textual.
@@ -132,7 +134,7 @@ const { total, seed } = await one(
   `select count(*)::int as total, count(*) filter (where contest_slug like 'seed-%')::int as seed from api.question`,
 );
 if (total !== seed) {
-  console.error(`o banco tem ${total - seed} questões fora do seed; use um banco só com o seed (origem_test)`);
+  console.error(`o banco tem ${total - seed} questões fora do seed; use um banco só com o seed (banco de testes)`);
   process.exit(1);
 }
 const snapshot = JSON.parse(await readFile(join(ROOT, 'data', 'snapshot', 'questions.json'), 'utf8'));
@@ -172,7 +174,7 @@ for (const q of QUERIES) {
   queries.push({ query: q, tsquery: t });
 }
 
-// Vetor de busca como o origem monta (md_plain + setweight A/B + concatenação), a partir das
+// Vetor de busca como o banco de questões monta (md_plain + setweight A/B + concatenação), a partir das
 // colunas do esquema api. A comparação ignora os pesos (não afetam `@@`).
 const md = (x) =>
   `regexp_replace(regexp_replace(regexp_replace(regexp_replace(${x}, '!\\[([^\\]]*)\\]\\([^)]*\\)', '\\1', 'g'), '</?u>', ' ', 'g'), '-{3,}', ' ', 'g'), '[*_|$\`~\\\\]+', ' ', 'g')`;
@@ -191,7 +193,7 @@ for (const r of (
 const { version } = await one(`select current_setting('server_version') as version`);
 await client.end();
 
-const meta = { recorded_at: new Date().toISOString(), postgres: version, database: new URL(DATABASE_URL).pathname.slice(1) };
+const meta = { recorded_at: new Date().toISOString(), postgres: version, scope: 'seed' };
 await mkdir(OUT, { recursive: true });
 const write = (name, data) => writeFile(join(OUT, name), JSON.stringify(data, null, 1) + '\n');
 // Um caso por linha: o arquivo fica menor e o diff mostra qual caso mudou.

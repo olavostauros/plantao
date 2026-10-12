@@ -1,18 +1,18 @@
-# 0001 — Site estático no GitHub Pages, alimentado por snapshot do origem
+# 0001 — Site estático no GitHub Pages, alimentado por snapshot do banco de questões
 
 **Data:** 2026-10-08
 
 ## Contexto
 
 O dono pediu o front-end num repositório público, `plantao`, publicado no GitHub Pages. O contrato
-do origem (v1.2) expõe as questões por funções e views no esquema `api` do Postgres, acessadas com
-o papel `origem_web`. O GitHub Pages só serve arquivos estáticos; não há servidor para consultar o
-banco, e o Postgres do origem roda localmente (docker compose), sem endereço público.
+do banco de questões (v1.2) expõe as questões por funções e views no esquema `api` do Postgres, acessadas com
+o papel só leitura. O GitHub Pages só serve arquivos estáticos; não há servidor para consultar o
+banco, e o Postgres do banco de questões roda localmente (docker compose), sem endereço público.
 
 ## Decisão
 
 - O site é gerado com Astro em modo `static`.
-- `scripts/export-snapshot.mjs` lê as views do esquema `api` (papel `origem_web`) e grava JSON em
+- `scripts/export-snapshot.mjs` lê as views do esquema `api` (papel só leitura) e grava JSON em
   `data/snapshot/` e imagens em `public/assets/`. O snapshot é versionado; o CI só faz o build.
 - Filtros, facetas e busca do contrato são reimplementados no navegador sobre o snapshot, com a
   mesma semântica.

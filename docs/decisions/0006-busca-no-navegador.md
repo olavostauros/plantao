@@ -5,7 +5,7 @@
 ## Contexto
 
 F2 pede `/questoes/` com a semântica de `api.search_questions` e `api.facet_counts` (contrato,
-seções 2 e 3), num site estático. A busca textual do origem é `websearch_to_tsquery` com a
+seções 2 e 3), num site estático. A busca textual do banco de questões é `websearch_to_tsquery` com a
 configuração `ext.pt_unaccent` (analisador padrão, `unaccent` e Snowball português) sobre um vetor
 `md_plain(enunciado) || alternativas || texto-base`. Aproximar isso (por exemplo, minúsculas e
 remoção de acentos) daria resultados diferentes em hífens, números, stopwords, radicais e frases. O
@@ -30,7 +30,7 @@ remoção de acentos) daria resultados diferentes em hífens, números, stopword
   O navegador baixa o base na primeira interação (ou na hora, se a URL tem filtros), as fatias dos
   lexemas da consulta e os blocos das questões visíveis.
 - **Sem JS**: a página traz as 20 questões mais recentes e o aviso; o formulário só aparece com JS.
-- **Paridade testada**: `npm run fixtures:search` grava, de um banco só com o seed (`origem_test`),
+- **Paridade testada**: `npm run fixtures:search` grava, de um banco só com o seed (banco de testes),
   44 casos de busca + facetas, 48 consultas e o vetor de cada questão; `tests/search-parity.test.ts`
   compara tudo.
 
@@ -38,7 +38,7 @@ remoção de acentos) daria resultados diferentes em hífens, números, stopword
 
 - Medido: vetores iguais aos do PG nas 65 do seed e nas 5.152 reais (conferência local, nada
   gravado); stemmer igual à saída de referência do Snowball em 32.016 palavras; filtros e facetas
-  iguais aos do banco em 7 combinações sobre as 100 mil questões sintéticas do `origem_bench`
+  iguais aos do banco em 7 combinações sobre as 100 mil questões sintéticas do banco de carga
   (busca 1–6 ms, facetas 3–12 ms).
 - JS da página `/questoes/` ≈ 26 KB gzip (ilha ≈ 18,5 KB, Preact e runtime ≈ 7 KB), dos quais
   ≈ 5 KB são as regras do `unaccent`.
@@ -46,7 +46,7 @@ remoção de acentos) daria resultados diferentes em hífens, números, stopword
   7 KB gzip. Para 100 mil reais o base em JSON passaria de algumas centenas de KB: **F5** deve
   trocá-lo por colunas binárias (por exemplo, `Uint16Array` em base64) e medir de novo. O build
   leva ≈ 11 s para 100 mil questões.
-- Mudou a configuração de busca do origem (dicionário, `md_plain`, pesos)? Regravar as fixtures; o
+- Mudou a configuração de busca do banco de questões (dicionário, `md_plain`, pesos)? Regravar as fixtures; o
   teste de paridade falha e aponta onde.
 - Diferenças conhecidas, fora do português: classes de caractere aproximam o glibc com propriedades
   Unicode do JS; a lista de sinais de escritas indianas de `p_isspecial` não foi portada; dentro de

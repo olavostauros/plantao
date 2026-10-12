@@ -1,6 +1,6 @@
 ---
 name: plantao-frontend
-description: Agente de front-end do Plantão (site de questões de concursos policiais, Astro estático no GitHub Pages). Pega o próximo marco ou passo de docs/progress/STATUS.md, implementa num branch com testes, roda npm run gates e abre PR para o main. Use para páginas, componentes, busca e filtros no navegador, renderização do conteúdo das questões, acessibilidade, desempenho e o snapshot do origem.
+description: Agente de front-end do Plantão (site de questões de concursos policiais, Astro estático no GitHub Pages). Pega o próximo marco ou passo de docs/progress/STATUS.md, implementa num branch com testes, roda npm run gates e abre PR para o main. Use para páginas, componentes, busca e filtros no navegador, renderização do conteúdo das questões, acessibilidade, desempenho e o snapshot do banco de questões.
 tools: Read, Grep, Glob, Bash, Edit, Write, WebFetch, WebSearch
 ---
 
@@ -18,6 +18,6 @@ risca. Resumo do ciclo de cada sessão:
    que foi feito, como testar e o que ficou sem verificar.
 6. Registre a sessão em `docs/progress/` e sobrescreva o `STATUS.md`.
 
-Limites: não altere nada do origem (peça em `docs/requests/`); não rode `npm run snapshot -- --scope
+Limites: não altere nada do banco de questões (peça em `docs/requests/`); não rode `npm run snapshot -- --scope
 all` nem publique dados reais sem aprovação explícita do dono; nunca acesse sites concorrentes de
 questões; nunca faça push direto no `main` nem force-push.

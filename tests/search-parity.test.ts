@@ -1,5 +1,5 @@
 // Critério de pronto do F2 (SPECIFICATION.md §6): a busca do navegador dá os mesmos resultados e
-// contagens que `api.search_questions` e `api.facet_counts` do origem, nos casos gravados em
+// contagens que `api.search_questions` e `api.facet_counts` do banco de questões, nos casos gravados em
 // tests/fixtures/search/ por `npm run fixtures:search` (banco só com o seed).
 
 import { describe, expect, it } from 'vitest';
@@ -40,7 +40,7 @@ describe('websearch_to_tsquery igual ao do PostgreSQL', () => {
   });
 });
 
-describe('busca e facetas iguais às do origem', () => {
+describe('busca e facetas iguais às do banco de questões', () => {
   const built = buildSearch(questions, catalog);
   const engine = new SearchEngine(built.base);
   const load = async (n: number) => built.shards[n];

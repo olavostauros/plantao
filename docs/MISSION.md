@@ -13,8 +13,8 @@ Ser o lugar onde o concurseiro das **carreiras policiais** encontra e resolve as
 precisa: provas oficiais, gabarito definitivo, anuladas marcadas, filtradas por banca, órgão, cargo,
 ano, disciplina e assunto. Gratuito, rápido no celular mais simples e acessível a todo mundo.
 
-O banco de questões é do projeto **origem** (repositório privado). O Plantão é o site: consome o
-snapshot do esquema `api` do origem e não altera dados.
+O banco de questões vem de um projeto privado. O Plantão é o site: consome o
+snapshot do esquema `api` do banco de questões e não altera dados.
 
 ## Para quem
 

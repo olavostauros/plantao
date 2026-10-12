@@ -1,4 +1,4 @@
-// Leitura do snapshot exportado do esquema `api` do origem (contrato v1.2, docs/contract.md).
+// Leitura do snapshot exportado do esquema `api` do banco de questões (contrato v1.2, docs/contract.md).
 // Os tipos espelham a seção 4 do contrato; campos novos de versões menores podem aparecer e
 // devem ser ignorados.
 

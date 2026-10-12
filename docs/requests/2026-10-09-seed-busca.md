@@ -1,4 +1,4 @@
-# Pedido ao origem — seed que exercite a busca e as facetas
+# Pedido ao banco de questões — seed que exercite a busca e as facetas
 
 **Data:** 2026-10-09 · **De:** Plantão (F2 — busca e filtros) · **Urgência:** baixa
 
@@ -22,7 +22,7 @@ O Plantão reimplementa `api.search_questions` e `api.facet_counts` no navegador
 casos gravados do banco **só com o seed** (o site é público). Hoje o seed não exercita: a faceta
 `position` (nome = `min(name)` entre órgãos, soma por prova), `type = essay`, a contagem de `topic`
 com assuntos em ramos diferentes, e vários tipos de token do analisador. Conferi localmente com o
-`origem_bench` (cargos) e com as reais (só vetores, sem gravar nada), mas sem fixture versionada
+banco de carga (cargos) e com as reais (só vetores, sem gravar nada), mas sem fixture versionada
 esses casos podem regredir sem aviso.
 
 ## Exemplo
