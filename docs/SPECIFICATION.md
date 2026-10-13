@@ -25,7 +25,7 @@ docs/                   contexto do agente: MISSION.md (porquê), SPECIFICATION.
 
 | Camada | Escolha |
 |---|---|
-| Framework | **Astro 5**, saída `static`, **TypeScript** estrito |
+| Framework | **Astro 7**, saída `static`, **TypeScript** estrito (decisão 0010) |
 | Componentes | Design system em **TSX com a API do React sobre o Preact** (`@astrojs/preact`, `compat: true`); HTML no build, hidratação (`client:*`) só onde há interação (decisão 0004) |
 | Hospedagem | **GitHub Pages**, `https://olavostauros.github.io/plantao/` (`base: '/plantao'`) |
 | CI/CD | `.github/workflows/pages.yml`: `npm ci` → `npm run gates` → deploy no push ao `main`; PR com a label `automerge` entra no `main` sozinho quando os gates passam (decisão 0003) |

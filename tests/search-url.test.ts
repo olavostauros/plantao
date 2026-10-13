@@ -64,7 +64,7 @@ describe('trecho do enunciado', () => {
 describe('/questoes/ sem JS', () => {
   it('traz as primeiras questões com link e avisa que a busca precisa de JS', async () => {
     const container = await AstroContainer.create();
-    const { getContainerRenderer } = await import('@astrojs/preact');
+    const { getContainerRenderer } = await import('@astrojs/preact/container-renderer');
     const preact = getContainerRenderer();
     container.addServerRenderer({ renderer: (await import('@astrojs/preact/server.js')).default, name: preact.name });
     container.addClientRenderer({ name: preact.name, entrypoint: String(preact.clientEntrypoint) });
