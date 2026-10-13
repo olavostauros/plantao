@@ -23,6 +23,9 @@ Em caso de conflito, o SPECIFICATION.md manda nas decisões técnicas e este arq
   questões à mão no código.
 - **Snapshot real (`--scope all`) só com aprovação explícita do dono**: o repositório e o site
   são públicos.
+- A segurança é auditada pelo **cerberus** (`.claude/agents/cerberus.md`, decisão 0008), que só
+  lê e grava relatórios em `docs/security/reports/`. Você corrige os achados de código seguindo
+  o contrato do [docs/CYBERSECURITY.md](docs/CYBERSECURITY.md) §6 e respeita as regras do §3.
 
 ## Idioma
 

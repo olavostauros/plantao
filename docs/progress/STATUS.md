@@ -4,12 +4,10 @@
 correção dos achados da auditoria de segurança de 2026-10-13 (`Quem corrige: agente`).
 
 ## Em andamento
-- Segurança (auditoria de 2026-10-13): P-004 e P-005 corrigidos no PR #1 (`seg-ci`, no ar);
-  P-002 e P-003 no PR `seg-astro` (Astro 7, decisão 0010). O relatório e o
-  `docs/CYBERSECURITY.md` estão no branch `cerberus`, ainda fora do `main`: o `Estado` dos
-  achados é atualizado quando ele entrar.
-- Decisões 0008 (cerberus) e 0009 (API do banco de questões) estão em branches ainda fora do
-  `main`; por isso a do Astro 7 é a 0010.
+- Segurança (auditoria de 2026-10-13, `docs/security/reports/2026-10-13-completa.md`, decisão
+  0008): P-004 e P-005 corrigidos no PR #1 (`seg-ci`); P-002 e P-003 no PR #2 (`seg-astro`,
+  Astro 7, decisão 0010). Ambos no ar.
+- Decisão 0009 (API do banco de questões) está no branch `api-questoes`, ainda fora do `main`.
 
 ## Próximos passos
 1. Achados de agente que faltam: P-006 (CSP), P-007 (SVG do snapshot), P-008 (testes de

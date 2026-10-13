@@ -6,3 +6,5 @@ dist/
 .DS_Store
 # Palavras privadas para scripts/check-private-words.mjs. Nunca versionar.
 .private-words
+# Relatórios de segurança ainda não publicáveis (docs/CYBERSECURITY.md §6).
+data/security/
