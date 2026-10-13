@@ -4,9 +4,12 @@
 correção dos achados da auditoria de segurança de 2026-10-13 (`Quem corrige: agente`).
 
 ## Em andamento
-- Segurança: PR `seg-ci` (P-004 actions por SHA, P-005 `--match-head-commit`); PR `seg-astro`
-  (P-002 Astro 7, junto com P-003 se couber). O relatório e o `docs/CYBERSECURITY.md` estão no
-  branch `cerberus`, ainda fora do `main`: o `Estado` dos achados é atualizado quando ele entrar.
+- Segurança (auditoria de 2026-10-13): P-004 e P-005 corrigidos no PR #1 (`seg-ci`, no ar);
+  P-002 e P-003 no PR `seg-astro` (Astro 7, decisão 0010). O relatório e o
+  `docs/CYBERSECURITY.md` estão no branch `cerberus`, ainda fora do `main`: o `Estado` dos
+  achados é atualizado quando ele entrar.
+- Decisões 0008 (cerberus) e 0009 (API do banco de questões) estão em branches ainda fora do
+  `main`; por isso a do Astro 7 é a 0010.
 
 ## Próximos passos
 1. Achados de agente que faltam: P-006 (CSP), P-007 (SVG do snapshot), P-008 (testes de
@@ -33,6 +36,6 @@ correção dos achados da auditoria de segurança de 2026-10-13 (`Quem corrige: 
 
 ## Números
 - Snapshot: seed, 65 questões, 5 provas, 2 imagens (contrato v1.2, content-format v1.0)
-- Página de questão: JS ≈ 11,6 KB gzip, CSS ≈ 3,3 KB gzip, LCP ≤ 1,0 s
+- Página de questão: JS ≈ 11,6 KB gzip (Astro 5; no Astro 7, ≈ 8,9 KB só em `_astro/`), CSS ≈ 3,3 KB gzip, LCP ≤ 1,0 s
 - `/questoes/`: JS 25,9 KB gzip, CSS 3,8 KB gzip, LCP 1,5–1,7 s, Lighthouse 100 nas 4 categorias
 - Site: https://olavostauros.github.io/plantao/

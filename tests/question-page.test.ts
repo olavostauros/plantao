@@ -11,7 +11,7 @@ const text = (html: string) => html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' '
 beforeAll(async () => {
   container = await AstroContainer.create();
   // A ilha de responder (Preact) também sai no HTML do build.
-  const { getContainerRenderer } = await import('@astrojs/preact');
+  const { getContainerRenderer } = await import('@astrojs/preact/container-renderer');
   const preact = getContainerRenderer();
   container.addServerRenderer({ renderer: (await import('@astrojs/preact/server.js')).default, name: preact.name });
   container.addClientRenderer({ name: preact.name, entrypoint: String(preact.clientEntrypoint) });
