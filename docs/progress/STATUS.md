@@ -1,22 +1,23 @@
-# Status — atualizado em 2026-10-12
+# Status — atualizado em 2026-10-13
 
-**Marco atual:** F2 — Busca e filtros **entregue** (PR `f2-busca`): `/questoes/` com paridade
-testada contra `api.search_questions`/`api.facet_counts` (44 casos, 48 consultas, 65 vetores em
-`tests/fixtures/search/`). Próximo: F3 — Provas e navegação.
+**Marco atual:** F2 — Busca e filtros **entregue**. Próximo: F3 — Provas e navegação. Em paralelo,
+correção dos achados da auditoria de segurança de 2026-10-13 (`Quem corrige: agente`).
 
 ## Em andamento
-- Branch local `limpeza-nomes` (registro `2026-10-12-limpeza-nomes.md`, decisão 0007): o nome do
-  projeto do banco de questões sai do repositório e do histórico. Reescrita do histórico e
-  publicação dependem do dono, passo a passo; nada foi enviado ao GitHub.
+- Segurança: PR `seg-ci` (P-004 actions por SHA, P-005 `--match-head-commit`); PR `seg-astro`
+  (P-002 Astro 7, junto com P-003 se couber). O relatório e o `docs/CYBERSECURITY.md` estão no
+  branch `cerberus`, ainda fora do `main`: o `Estado` dos achados é atualizado quando ele entrar.
 
 ## Próximos passos
-1. Conferir `/questoes/` no site publicado (Lighthouse e teclado) depois do merge.
-2. F3: `/provas/`, `/prova/<contest_slug>/<exam_slug>/`, entrada com atalhos (a busca já tem URL
+1. Achados de agente que faltam: P-006 (CSP), P-007 (SVG do snapshot), P-008 (testes de
+   `javascript:`/`data:`/KaTeX sem `trust`).
+2. Conferir `/questoes/` no site publicado (Lighthouse e teclado).
+3. F3: `/provas/`, `/prova/<contest_slug>/<exam_slug>/`, entrada com atalhos (a busca já tem URL
    para atalhos, ex. `questoes/?banca=cebraspe&orgao=pf`).
-3. Quando o banco de questões ampliar o seed: `npm run snapshot && npm run fixtures:search && npm test`
+4. Quando o banco de questões ampliar o seed: `npm run snapshot && npm run fixtures:search && npm test`
    (com `SOURCE_DATABASE_URL`, `SOURCE_ASSETS_DIR` e `SOURCE_FIXTURES_DATABASE_URL` definidas).
-4. F5: índice-base em colunas binárias antes do escopo `all` (decisão 0006, consequências).
-5. Quando o banco de questões confirmar a content-format v1.1: ligar `inlineMath` em `renderMarkdown`.
+5. F5: índice-base em colunas binárias antes do escopo `all` (decisão 0006, consequências).
+6. Quando o banco de questões confirmar a content-format v1.1: ligar `inlineMath` em `renderMarkdown`.
 
 ## Comunicação com o banco de questões
 - Pedidos: `docs/requests/AAAA-MM-DD-<assunto>.md` + mensagem ao agente do banco de questões.
@@ -26,7 +27,8 @@ testada contra `api.search_questions`/`api.facet_counts` (44 casos, 48 consultas
   fixtures; o teste de paridade aponta a diferença.
 
 ## Bloqueios e perguntas em aberto
-- Secret `PRIVATE_WORDS` no GitHub ainda não criado: sem ele o `check:private` é pulado no CI.
+- Achados do dono na auditoria de 2026-10-13: P-001 (ruleset do `main`), P-009 (Actions),
+  P-010 (alertas), P-011 (senha local no histórico), P-012 (wiki/projects).
 - Publicar as questões reais (`npm run snapshot -- --scope all`) depende de aprovação do dono.
 
 ## Números
